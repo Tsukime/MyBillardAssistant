@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mlanie.billard.Regles">
+
+    <Button
+        android:id="@+id/bouton_menu_regles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/bouton_menu" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bouton_menu_regles"
+        android:layout_above="@+id/bouton_help_regles"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/bouton_billardFrancais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@android:style/Widget.Button"
+            android:layout_marginTop="60dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/bouton_billardFrancais"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:maxHeight="140dp"
+                android:maxWidth="140dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/bouton_billardFrancais"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/bouton_billardAmericain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/bouton_billardFrancais"
+            android:layout_toEndOf="@id/bouton_billardFrancais"
+            android:layout_alignTop="@id/bouton_billardFrancais"
+            android:layout_alignBottom="@id/bouton_billardFrancais"
+            android:layout_centerVertical="true"
+            style="@android:style/Widget.Button">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/bouton_billardAmericain"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:maxHeight="140dp"
+                android:maxWidth="140dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/bouton_billardAmericain"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/bouton_poolAnglais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/bouton_billardFrancais"
+            android:layout_alignStart="@id/bouton_billardFrancais"
+            android:layout_alignLeft="@id/bouton_billardFrancais"
+            android:layout_alignEnd="@id/bouton_billardFrancais"
+            android:layout_alignRight="@id/bouton_billardFrancais"
+            style="@android:style/Widget.Button"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/bouton_poolAnglais"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:maxHeight="140dp"
+                android:maxWidth="140dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/bouton_poolAnglais"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/bouton_snooker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/bouton_poolAnglais"
+            android:layout_toEndOf="@id/bouton_poolAnglais"
+            android:layout_below="@id/bouton_billardAmericain"
+            android:layout_alignStart="@id/bouton_billardAmericain"
+            android:layout_alignLeft="@id/bouton_billardAmericain"
+            android:layout_alignEnd="@id/bouton_billardAmericain"
+            android:layout_alignRight="@id/bouton_billardAmericain"
+            android:layout_alignTop="@id/bouton_poolAnglais"
+            android:layout_alignBottom="@id/bouton_poolAnglais"
+            style="@android:style/Widget.Button"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/bouton_snooker"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:maxHeight="140dp"
+                android:maxWidth="140dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/bouton_snooker"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bouton_help_regles"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/bouton_help"
+        />
+
+</RelativeLayout>
