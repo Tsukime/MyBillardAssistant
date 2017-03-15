@@ -46,9 +46,9 @@
     <!---Se connecter-->
     <string name="tmp_seConnecter">En travaux D</string>
     <string name="dialog_help_seConnecter">Cf la page (</string>
-    
-    
 
+
+    <string name="test">test</string>
     <string name="I_Billard_anglais">Billard anglais</string>
     <string name="I_A_8Pool_blackBall">Règles du 8Pool ou BlackBall</string>
     <string name="I_A_Introduction"> Le jeu se déroulera sur un Billard rectangulaire à 6 « Poches » avec un nombre de 14 billes de couleur, une bille noire numéro 8 et une bille blanche. Les 14 billes de couleur sont séparées en 2 groupes : un groupe de 7 billes rouges, un groupe de 7 billes jaunes.</string>
