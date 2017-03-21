@@ -52,8 +52,8 @@ public class Menu extends AppCompatActivity {
         public void onClick(View v) {
             AlertDialog.Builder box = new AlertDialog.Builder(Menu.this);
             box.setCancelable(true);
-            box.setMessage(R.string.dialog_help_menu);
             box.setTitle("Aide");
+            box.setMessage("Conditions générales d'utilisation");
             box.setNeutralButton(R.string.bouton_dialog, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
