@@ -64,8 +64,10 @@
 
     <ImageView
         android:id="@+id/bouton_options"
+        android:src="@drawable/option"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:padding="0dip"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:contentDescription="@string/bouton_options"
@@ -73,12 +75,15 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        />
 
     <ImageView
         android:id="@+id/bouton_compte"
+        android:src="@drawable/compte"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:padding="0dip"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:contentDescription="@string/bouton_compte"
