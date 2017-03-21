@@ -40,10 +40,11 @@ public class Menu extends AppCompatActivity {
                 activityTwo = new Intent(Menu.this, Scores.class);
                 startActivity(activityTwo);
             }
-            /*if(v.getId()==R.id.bouton_conseils)
+            if(v.getId()==R.id.bouton_conseils)
             {
-                Toast.makeText(Menu.this, "Conseils pas encore implémentés D:", Toast.LENGTH_LONG).show();
-            }*/
+                activityTwo = new Intent(Menu.this, Accordion.class);
+                startActivity(activityTwo);
+            }
         }
     };
 

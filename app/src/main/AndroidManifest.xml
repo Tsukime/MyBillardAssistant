@@ -15,7 +15,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Regles" />
         <activity android:name=".Scores" />
         <activity android:name=".Advise" />
@@ -23,6 +22,10 @@
         <activity android:name=".UserArea" />
         <activity android:name=".Login" />
         <activity android:name=".Register" />
+        <activity
+            android:name=".Accordion"
+            android:label="@string/title_activity_accordion"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

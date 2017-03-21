@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.incoherentglitch.mybillardassistant.Accordion"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/magic_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Magic Btn"/>
+    <LinearLayout
+        android:id="@+id/magic_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/bouton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bouton"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/magic_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Magic Btn2"/>
+    <LinearLayout
+        android:id="@+id/magic_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/bouton_bouton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bouton carre"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">My Application</string>
-    
+
     <!---All-->
     <string name="bouton_help">\?</string>
     <string name="bouton_dialog">OK</string>
@@ -556,7 +556,7 @@
     <string name="III_18_Attitude_des_joueurs_2">Quand la main passe, l’adversaire doit obligatoirement s’asseoir sur la chaise réservée aux joueurs.</string>
     <string name="III_19_Cas_exceptionnels">Cas exceptionnels</string>
     <string name="III_19_Cas_exceptionnels_1">Les cas exceptionnels non prévus au présent règlement sont laissés à l’appréciation de l’arbitre. Celui-ci devra faire un rapport a la Commission Sportive et à la Commission d’Arbitrage dans les 48 heures.</string>
-
+    <string name="title_activity_accordion">Accordion</string>
 
 
 </resources>
