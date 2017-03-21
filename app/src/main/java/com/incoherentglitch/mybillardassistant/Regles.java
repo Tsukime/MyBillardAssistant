@@ -7,13 +7,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class Regles extends Activity {
 
     private Button bMenu = null, bHelp = null;
-    private LinearLayout bBillardFrancais = null, bBillardAmericain = null, bPoolAnglais = null, bSnooker = null;
+    private ImageButton bBillardFrancais = null, bBillardAmericain = null, bPoolAnglais = null, bSnooker = null;
 
     private View.OnClickListener clickListenerBoutons = new View.OnClickListener() {
         // private Intent deuxiemeActivite = null;
@@ -56,10 +57,10 @@ public class Regles extends Activity {
         setContentView(R.layout.activity_regles);
 
         bMenu = (Button) findViewById(R.id.bouton_menu_regles);
-        bBillardFrancais = (LinearLayout) findViewById(R.id.bouton_billardFrancais);
-        bBillardAmericain = (LinearLayout) findViewById(R.id.bouton_billardAmericain);
-        bPoolAnglais = (LinearLayout) findViewById(R.id.bouton_poolAnglais);
-        bSnooker = (LinearLayout) findViewById(R.id.bouton_snooker);
+        bBillardFrancais = (ImageButton) findViewById(R.id.bouton_billardFrancais);
+        bBillardAmericain = (ImageButton) findViewById(R.id.bouton_billardAmericain);
+        bPoolAnglais = (ImageButton) findViewById(R.id.bouton_poolAnglais);
+        bSnooker = (ImageButton) findViewById(R.id.bouton_snooker);
         bHelp = (Button) findViewById(R.id.bouton_help_regles);
 
         bMenu.setOnClickListener(clickListenerBoutons);

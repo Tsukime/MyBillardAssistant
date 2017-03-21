@@ -7,8 +7,9 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#007300"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.yinc.billard.UserArea">
+    tools:context="com.incoherentglitch.mybillardassistant.UserArea">
 
     <TextView
         android:text="TextView"

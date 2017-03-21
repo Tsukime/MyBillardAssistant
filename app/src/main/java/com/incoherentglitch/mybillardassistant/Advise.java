@@ -16,7 +16,7 @@ public class Advise extends AppCompatActivity {
         final ImageButton ireturn = (ImageButton) findViewById(R.id.iReturn);
         ireturn.setOnClickListener(new View.OnClickListener() { //appelle les instruction dans OnClick ci-dessus quand cliqué
             public void onClick(View v) {
-                Intent registerIntent = new Intent(Advise.this, MainMenu.class);
+                Intent registerIntent = new Intent(Advise.this, Menu.class);
                 Advise.this.startActivity(registerIntent);   //ouvre une activité
             }
         }

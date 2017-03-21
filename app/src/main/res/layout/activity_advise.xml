@@ -9,8 +9,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#009e37"
-    tools:context="com.example.yinc.billard.Advise">
+    android:background="#007300"
+    tools:context="com.incoherentglitch.mybillardassistant.Advise">
 
     <TextView
         android:text="Advise"

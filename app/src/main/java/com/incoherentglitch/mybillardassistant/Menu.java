@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.view.View;
@@ -13,7 +14,7 @@ import android.widget.ImageView;
 //import android.content.Intent;
 import android.widget.Toast;
 
-public class Menu extends Activity {
+public class Menu extends AppCompatActivity {
 
     private ImageView bCompte = null, bOptions = null;
     private Button bRegles = null, bScores = null, bConseils = null, bHelp = null;
@@ -26,17 +27,27 @@ public class Menu extends Activity {
             Intent activityTwo = null;
             if(v.getId()==R.id.bouton_regles)
             {
+                System.out.println("coucou regles");
+
                 activityTwo = new Intent(Menu.this, Regles.class);
                 startActivity(activityTwo);
             }
-            /*if(v.getId()==R.id.bouton_compte)
+            if(v.getId()==R.id.bouton_compte)
             {
                 Toast.makeText(Menu.this, "Compte pas encore implémenté D:", Toast.LENGTH_LONG).show();
             }
             if(v.getId()==R.id.bouton_options)
             {
-                Toast.makeText(Menu.this, "Options pas encore implémentées D:", Toast.LENGTH_LONG).show();
-            }*/
+                Toast.makeText(Menu.this, "option pas encore fix, null pointer exception", Toast.LENGTH_LONG).show();
+                /*System.out.println("coucou2 option");
+                activityTwo = new Intent(Menu.this, Option.class);
+                System.out.println(activityTwo.getDataString());
+
+                startActivity(activityTwo);*/
+              //  onClick(v);
+                //activityTwo = new Intent(Menu.this, Option.class);
+                //startActivity(activityTwo);
+            }
             if(v.getId()==R.id.bouton_scores)
             {
                 activityTwo = new Intent(Menu.this, Scores.class);
@@ -69,6 +80,7 @@ public class Menu extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+    //public void onActivityCreated(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
@@ -85,5 +97,12 @@ public class Menu extends Activity {
         bScores.setOnClickListener(clickListenerBoutons);
         bConseils.setOnClickListener(clickListenerBoutons);
         bHelp.setOnClickListener(clickListenerBoutonHelp);
+    }
+
+    public void onClick(View v){
+        System.out.println("coucou option");
+        Intent activityTwo = null;
+        activityTwo = new Intent(Menu.this, Option.class);
+        startActivity(activityTwo);
     }
 }

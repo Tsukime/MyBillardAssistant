@@ -17,10 +17,7 @@
         </activity>
 
         <activity android:name=".Regles" />
-
         <activity android:name=".Scores" />
-        <activity android:name=".Rules" />
-        <activity android:name=".Score" />
         <activity android:name=".Advise" />
         <activity android:name=".Option" />
     </application>
