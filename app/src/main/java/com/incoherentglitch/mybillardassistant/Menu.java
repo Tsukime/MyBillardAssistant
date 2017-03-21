@@ -1,18 +1,13 @@
 package com.incoherentglitch.mybillardassistant;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.view.View;
 import android.widget.ImageView;
-//import android.view.MotionEvent;
-//import android.content.Intent;
-import android.widget.Toast;
 
 public class Menu extends AppCompatActivity {
 
@@ -27,26 +22,18 @@ public class Menu extends AppCompatActivity {
             Intent activityTwo = null;
             if(v.getId()==R.id.bouton_regles)
             {
-                System.out.println("coucou regles");
-
                 activityTwo = new Intent(Menu.this, Regles.class);
                 startActivity(activityTwo);
             }
             if(v.getId()==R.id.bouton_compte)
             {
-                Toast.makeText(Menu.this, "Compte pas encore implémenté D:", Toast.LENGTH_LONG).show();
+                activityTwo = new Intent(Menu.this, UserArea.class);
+                startActivity(activityTwo);
             }
             if(v.getId()==R.id.bouton_options)
             {
-                //Toast.makeText(Menu.this, "option pas encore fix, null pointer exception", Toast.LENGTH_LONG).show();
-                /*System.out.println("coucou2 option");
                 activityTwo = new Intent(Menu.this, Option.class);
-                System.out.println(activityTwo.getDataString());
-
-                startActivity(activityTwo);*/
-              //  onClick(v);
-                //activityTwo = new Intent(Menu.this, Option.class);
-                //startActivity(activityTwo);
+                startActivity(activityTwo);
             }
             if(v.getId()==R.id.bouton_scores)
             {
@@ -80,7 +67,6 @@ public class Menu extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-    //public void onActivityCreated(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
@@ -92,35 +78,12 @@ public class Menu extends AppCompatActivity {
         bHelp = (Button) findViewById(R.id.bouton_help_menu);
 
         bCompte.setOnClickListener(clickListenerBoutons);
-        bOptions.setOnClickListener(new View.OnClickListener() {
-            //Start new list activity
-            public void onClick(View v) {
-                Intent mainIntent = new Intent(Menu.this, Option.class);
-                //Intent mainIntent = new Intent(Menu.this, Scores.class);
-                System.out.println("nouvelle valeur : " + mainIntent.getDataString());
-                startActivity(mainIntent);
-            }
-        });
-       // bRegles.setOnClickListener(clickListenerBoutons);
-
-        bRegles.setOnClickListener(new View.OnClickListener() {
-            //Start new list activity
-            public void onClick(View v) {
-                //Intent mainIntent = new Intent(Menu.this, Option.class);
-                Intent mainIntent = new Intent(Menu.this, Regles.class);
-                System.out.println("nouvelle valeur : " + mainIntent.getDataString());
-                startActivity(mainIntent);
-            }
-        });
+        bOptions.setOnClickListener(clickListenerBoutons);
+        bRegles.setOnClickListener(clickListenerBoutons);
         bScores.setOnClickListener(clickListenerBoutons);
         bConseils.setOnClickListener(clickListenerBoutons);
         bHelp.setOnClickListener(clickListenerBoutonHelp);
     }
 
-    public void onClick(View v){
-        System.out.println("coucou option");
-        Intent activityTwo = null;
-        activityTwo = new Intent(Menu.this, Option.class);
-        startActivity(activityTwo);
-    }
+
 }

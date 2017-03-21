@@ -6,15 +6,21 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class UserArea extends AppCompatActivity {
+    EditText etUsername;
+    EditText etAge;
+    TextView weclcomMess;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_area);
+        System.out.println("coucou compte");
 
-        final EditText etUsername = (EditText) findViewById(R.id.etUsername);
-        final EditText etAge = (EditText) findViewById(R.id.etAge);
-        final TextView weclcomMess = (TextView) findViewById(R.id.tvWelcomMessage);
+        etUsername = (EditText) findViewById(R.id.etUsername);
+        etAge = (EditText) findViewById(R.id.etAge);
+        weclcomMess = (TextView) findViewById(R.id.tvWelcomMessage);
 
     }
+
 }
