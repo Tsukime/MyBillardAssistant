@@ -38,7 +38,7 @@ public class Menu extends AppCompatActivity {
             }
             if(v.getId()==R.id.bouton_options)
             {
-                Toast.makeText(Menu.this, "option pas encore fix, null pointer exception", Toast.LENGTH_LONG).show();
+                //Toast.makeText(Menu.this, "option pas encore fix, null pointer exception", Toast.LENGTH_LONG).show();
                 /*System.out.println("coucou2 option");
                 activityTwo = new Intent(Menu.this, Option.class);
                 System.out.println(activityTwo.getDataString());
@@ -92,8 +92,26 @@ public class Menu extends AppCompatActivity {
         bHelp = (Button) findViewById(R.id.bouton_help_menu);
 
         bCompte.setOnClickListener(clickListenerBoutons);
-        bOptions.setOnClickListener(clickListenerBoutons);
-        bRegles.setOnClickListener(clickListenerBoutons);
+        bOptions.setOnClickListener(new View.OnClickListener() {
+            //Start new list activity
+            public void onClick(View v) {
+                Intent mainIntent = new Intent(Menu.this, Option.class);
+                //Intent mainIntent = new Intent(Menu.this, Scores.class);
+                System.out.println("nouvelle valeur : " + mainIntent.getDataString());
+                startActivity(mainIntent);
+            }
+        });
+       // bRegles.setOnClickListener(clickListenerBoutons);
+
+        bRegles.setOnClickListener(new View.OnClickListener() {
+            //Start new list activity
+            public void onClick(View v) {
+                //Intent mainIntent = new Intent(Menu.this, Option.class);
+                Intent mainIntent = new Intent(Menu.this, Regles.class);
+                System.out.println("nouvelle valeur : " + mainIntent.getDataString());
+                startActivity(mainIntent);
+            }
+        });
         bScores.setOnClickListener(clickListenerBoutons);
         bConseils.setOnClickListener(clickListenerBoutons);
         bHelp.setOnClickListener(clickListenerBoutonHelp);
