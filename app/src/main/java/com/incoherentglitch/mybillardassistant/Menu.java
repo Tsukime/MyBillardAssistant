@@ -8,11 +8,22 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class Menu extends AppCompatActivity {
 
+    private int level;
+
     private ImageView bCompte = null, bOptions = null;
     private Button bRegles = null, bScores = null, bConseils = null, bHelp = null;
+
+    public void setLevel(int level){
+        this.level = level;
+    }
+
+    public int getLevel(){
+        return this.level;
+    }
 
     private View.OnClickListener clickListenerBoutons = new View.OnClickListener() {
        // private Intent deuxiemeActivite = null;
@@ -42,7 +53,7 @@ public class Menu extends AppCompatActivity {
             }
             if(v.getId()==R.id.bouton_conseils)
             {
-                activityTwo = new Intent(Menu.this, Accordion.class);
+                activityTwo = new Intent(Menu.this, Advise.class);
                 startActivity(activityTwo);
             }
         }

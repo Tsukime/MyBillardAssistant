@@ -25,7 +25,8 @@
         <activity
             android:name=".Accordion"
             android:label="@string/title_activity_accordion"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ConseilsInternet"></activity>
     </application>
 
 </manifest>

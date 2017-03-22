@@ -3,14 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.incoherentglitch.mybillardassistant.Accordion"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#007300">
 
 
     <Button
         android:id="@+id/magic_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Magic Btn"/>
+        android:text="@string/I_A_1_But_du_jeu"/>
     <LinearLayout
         android:id="@+id/magic_layout"
         android:layout_width="match_parent"
@@ -21,14 +22,14 @@
             android:id="@+id/bouton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="bouton"/>
+            android:text="@string/I_A_1_But_du_jeu_1"/>
     </LinearLayout>
 
     <Button
         android:id="@+id/magic_btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Magic Btn2"/>
+        android:text="@string/I_A_2_Départ_du_jeu_casse"/>
     <LinearLayout
         android:id="@+id/magic_layout2"
         android:layout_width="match_parent"
@@ -39,6 +40,6 @@
             android:id="@+id/bouton_bouton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="bouton carre"/>
+            android:text="@string/I_A_2_Départ_du_jeu_casse_2_list1"/>
     </LinearLayout>
 </LinearLayout>

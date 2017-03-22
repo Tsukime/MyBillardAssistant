@@ -25,9 +25,14 @@ public class Regles extends Activity {
                 activityTwo = new Intent(Regles.this, Menu.class);
                 startActivity(activityTwo);
             }
+            if(v.getId()==R.id.bouton_poolAnglais) {
+                activityTwo = new Intent(Regles.this, Accordion.class);
+                startActivity(activityTwo);
+            }
             else
             {
-                Toast.makeText(Regles.this, "Manque joli image/icone du billard en question", Toast.LENGTH_LONG).show();
+                activityTwo = new Intent(Regles.this, Accordion.class);
+                startActivity(activityTwo);
             }
         }
     };
