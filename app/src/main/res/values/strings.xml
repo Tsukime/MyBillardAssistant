@@ -168,11 +168,11 @@
     <string name="I_A_10_Fautes_graves_1">Les fautes Graves sont annoncées par l’arbitre dès qu’elles sont commises. Il les déclare: « Fautes Graves ».</string>
     <string name="I_A_10_Fautes_graves_2">Une faute Grave fait perdre immédiatement au joueur fautif le contrôle de la table.</string>
     <string name="I_A_10_Fautes_graves_3">L’arbitre replace la ou les billes au plus près de l’endroit où elles se trouvaient positionnées avant la faute Grave et accorde deux visites à l’adversaire.</string>
-    <string name="I_A_10_Fautes_graves_4_list_item1_list">jouer, accidentellement ou délibérément, un tir « HORS TOURS »: Lorsqu’un joueur effectue un tir alors que son tir précédent ne lui en donne pas le droit.</string>
-    <string name="I_A_10_Fautes_graves_4_list_item1_list_item1">toucher, délibérément ou pas, une bille autre que la bille blanche avec le procédé ou avec autre chose (toute partie de la queue de billard, ou partie du corps, ou autre).</string>
-    <string name="I_A_10_Fautes_graves_4_list_item1_list_item2">toucher la bille blanche avec autre chose que le procédé (sauf pour replacer la bille blanche derrière la ligne).</string>
-    <string name="I_A_10_Fautes_graves_4_list_item1_list_item3">faire sauter, intentionnellement ou pas, la bille blanche par dessus une bille, avant tout contact.</string>
-    <string name="I_A_10_Fautes_graves_4_list_item2">perturber par tout commentaire vocal ou gestuel.</string>
+    <string name="I_A_10_Fautes_graves_4_list_item1">jouer, accidentellement ou délibérément, un tir « HORS TOURS »: Lorsqu’un joueur effectue un tir alors que son tir précédent ne lui en donne pas le droit.</string>
+    <string name="I_A_10_Fautes_graves_4_list_item2">toucher, délibérément ou pas, une bille autre que la bille blanche avec le procédé ou avec autre chose (toute partie de la queue de billard, ou partie du corps, ou autre).</string>
+    <string name="I_A_10_Fautes_graves_4_list_item3">toucher la bille blanche avec autre chose que le procédé (sauf pour replacer la bille blanche derrière la ligne).</string>
+    <string name="I_A_10_Fautes_graves_4_list_item4">faire sauter, intentionnellement ou pas, la bille blanche par dessus une bille, avant tout contact.</string>
+    <string name="I_A_10_Fautes_graves_4_list_item5">perturber par tout commentaire vocal ou gestuel.</string>
     <string name="I_A_11_Fautes_perte_partie">Fautes perte de la partie</string>
     <string name="I_A_11_Fautes_perte_partie_item1">commettre une faute au cours d’un tir, ou après un tir, sur la 8 Noire restant à jouer si celle-ci est empochée lors de ce tir.</string>
     <string name="I_A_11_Fautes_perte_partie_item2">empocher la 8 Noire alors qu’il reste une ou plusieurs billes de son groupe sur la table (excepté à la « Casse »).</string>
@@ -203,7 +203,7 @@
     <string name="I_A_15_Contacts_2">Si la bille blanche est en contact avec une bille de l’adversaire, le joueur doit jouer dans une direction opposée (angle supérieur à 90°) et faire contact avec une bille de son groupe (voir TIR REGLEMENTAIRE).</string>
     <string name="I_A_15_Contacts_3">Il n’y a pas faute si l’arbitre estime que le joueur a joué dans une direction opposée et que la bille collée bouge sans être touchée et que le contact bande a été assuré.</string>
     <string name="I_A_15_Contacts_4">Si la bille blanche est en contact avec plusieurs billes, le joueur doit jouer dans une direction opposée à une de ces billes (il peut jouer sur une autre bille en contact).</string>
-    <string name="I_A_15_Contacts_5_list">IMPORTANT: Avant d’effectuer son tir, si le joueur en contrôle estime qu’il y a « contact », il doit en demander confirmation à l’arbitre.</string>
+    <string name="I_A_15_Contacts_5">IMPORTANT: Avant d’effectuer son tir, si le joueur en contrôle estime qu’il y a « contact », il doit en demander confirmation à l’arbitre.</string>
     <string name="I_A_16_Interference">Interférence</string>
     <string name="I_A_16_Interferance_1_list">Il y a « interférence » si une ou plusieurs billes sont déplacées, au cours d’une partie:</string>
     <string name="I_A_16_Interferance_1_list_item1">par une personne autre que les joueurs et l’arbitre</string>
