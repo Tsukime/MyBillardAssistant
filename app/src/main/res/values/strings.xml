@@ -371,7 +371,7 @@
     <string name="II_A_2_Fautes_3_1">Cas particuliers</string>
     <string name="II_A_2_Fautes_3_2">Si, alors qu\'un joueur doit jouer, la bille blanche est en contact avec une autre bille, et que cette dernière est une bille jouable par le joueur (c\'est une de celles qu\'il doit viser), une règle particulière s\'applique : le joueur n\'a pas le droit de faire bouger cette bille lorsqu\'il frappe la blanche (cela est considéré comme un double contact), mais en contrepartie ce contact est considéré comme le premier impact du joueur. Il n\'a donc pas besoin de toucher une autre bille et peut alors viser une bille qu\'il n\'avait pas le droit de jouer autrement. Ceci ne le dispense néanmoins pas de toucher une bande.</string>
 
-    <string name="II_B_Jeu_de_la_8">Je jeu de la 8</string>
+    <string name="II_B_Jeu_de_la_8">Le jeu de la 8</string>
     <string name="II_B_1_Introduction_1">C\'est ce jeu que la plupart des amateurs pratiquent. Il se joue avec les 15 billes et les règles sont assez similaires à celles du blackball. C\'est un jeu qui se joue à l\'annonce, la poche dans laquelle on souhaite empocher la bille doit-être désignée (un empochage évident n\'a pas besoin d\'être annoncé donc on compte sur le fairplay et la bonne foi de son adversaire).</string>
     <string name="II_B_1_Introduction_2">But : Chaque joueur se voit attribuer un groupe de sept billes (soit les numéros 1 à 7 ou « pleines », soit 9 à 15 ou « cerclées »). Le vainqueur est le premier à empocher toutes les billes de son groupe, suivies de la numéro 8 (noire). La partie se joue en plusieurs manches (racks) dont le nombre est préalablement défini.</string>
     <string name="II_B_2_Regles">Règles</string>
@@ -423,7 +423,8 @@
     <string name="II_D_1_Points_3_list_item4_list_item6">6 = 8 points</string>
     <string name="II_D_1_Points_3_list_item4_list_item7">7 = 6 points</string>
     <string name="II_D_1_Points_3_list_item4_list_item8">8 = 2 points</string>
-    <string name="II_D_3_Fautes">Fautes (toute faute commise donne la main à l\'adversaire)</string>
+    <string name="II_D_3_Fautes">Fautes </string>
+    <string name="II_D_3_Fautes_1">Toute faute commise donne la main à l\'adversaire</string>
     <string name="II_D_3_Fautes_item1">aucune bille touchée = -1 point ;</string>
     <string name="II_D_3_Fautes_item2">la bille touchée en premier n\'est pas la plus basse = -1 point ;</string>
     <string name="II_D_3_Fautes_item3">empocher une bille dans les mauvaises conditions = -1 point (et on replace la bille sur la table au niveau du losange) ;</string>

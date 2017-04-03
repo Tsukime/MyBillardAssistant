@@ -14,6 +14,7 @@ public class ReglesAnglais extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_regles_anglais);
+
         Button findMagicBtn = (Button) findViewById(R.id.magic_btn_intro);
         findMagicBtn.setOnClickListener(new View.OnClickListener() {
             boolean animationClosing = false;
