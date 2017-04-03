@@ -6,9 +6,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 public class Regles extends Activity {
 
@@ -26,14 +26,22 @@ public class Regles extends Activity {
                 startActivity(activityTwo);
             }
             if(v.getId()==R.id.bouton_poolAnglais) {
-                activityTwo = new Intent(Regles.this, Accordion.class);
+                activityTwo = new Intent(Regles.this, ReglesAnglais.class);
                 startActivity(activityTwo);
             }
-            else
-            {
-                activityTwo = new Intent(Regles.this, Accordion.class);
+            if(v.getId()==R.id.bouton_billardFrancais) {
+                activityTwo = new Intent(Regles.this, ReglesFrancais.class);
                 startActivity(activityTwo);
             }
+            if(v.getId()==R.id.bouton_billardAmericain) {
+                activityTwo = new Intent(Regles.this, ReglesAmericain.class);
+                startActivity(activityTwo);
+            }
+            if(v.getId()==R.id.bouton_snooker) {
+                activityTwo = new Intent(Regles.this, ReglesSnooker.class);
+                startActivity(activityTwo);
+            }
+
         }
     };
 
@@ -58,6 +66,7 @@ public class Regles extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_regles);
 
         bMenu = (Button) findViewById(R.id.bouton_menu_regles);
