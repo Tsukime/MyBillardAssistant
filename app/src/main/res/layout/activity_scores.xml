@@ -2,8 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fond_score"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fond_score">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -50,14 +50,18 @@
 
                 <EditText
                     android:id="@+id/barre_recherche"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toLeftOf="@+id/bouton_recherche"
-                    android:layout_toStartOf="@+id/bouton_recherche"
+                    android:layout_width="350dp"
+                    android:layout_height="35dp"
                     android:hint="@string/barre_recherche"
-                    android:lines="1"/>
+                    android:lines="1"
+                    android:gravity="center"
+                    android:background="#FFFFFF"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/bouton_recherche"
+                    android:layout_toStartOf="@+id/bouton_recherche" />
 
-                <Button
+                <ImageButton
+                    app:srcCompat="@android:drawable/ic_search_category_default"
                     android:id="@+id/bouton_recherche"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -65,7 +69,8 @@
                     android:layout_toStartOf="@id/bouton_selectFilters"
                     android:text="@string/bouton_recherche" />
 
-                <Button
+                <ImageButton
+                    app:srcCompat="@android:drawable/ic_menu_more"
                     android:id="@+id/bouton_selectFilters"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
