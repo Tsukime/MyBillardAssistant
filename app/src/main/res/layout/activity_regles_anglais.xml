@@ -3,21 +3,20 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#007300"
+    android:background="@drawable/fond_billard_anglais"
     tools:context="com.incoherentglitch.mybillardassistant.ReglesAnglais">
 
     <LinearLayout
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
         android:orientation="vertical">
 
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/I_A_8Pool_blackBall"/>
         <Button
             android:id="@+id/magic_btn_intro"
             android:layout_width="match_parent"

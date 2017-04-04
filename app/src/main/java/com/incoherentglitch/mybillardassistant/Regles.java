@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 
 public class Regles extends Activity {
 
-    private Button bMenu = null, bHelp = null;
+    private Button bMenu = null;
     private ImageButton bBillardFrancais = null, bBillardAmericain = null, bPoolAnglais = null, bSnooker = null;
 
     private View.OnClickListener clickListenerBoutons = new View.OnClickListener() {
@@ -45,24 +45,6 @@ public class Regles extends Activity {
         }
     };
 
-    private View.OnClickListener clickListenerBoutonHelp = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            AlertDialog.Builder box = new AlertDialog.Builder(Regles.this);
-            box.setCancelable(true);
-            box.setMessage(R.string.dialog_help_regles);
-            box.setTitle("Aide");
-            box.setNeutralButton(R.string.bouton_dialog, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    //Toast.makeText(getBaseContext(), "help D:", Toast.LENGTH_SHORT).show();
-                }
-            });
-            AlertDialog dialog = box.create();
-            dialog.show();
-        }
-    };
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,13 +56,11 @@ public class Regles extends Activity {
         bBillardAmericain = (ImageButton) findViewById(R.id.bouton_billardAmericain);
         bPoolAnglais = (ImageButton) findViewById(R.id.bouton_poolAnglais);
         bSnooker = (ImageButton) findViewById(R.id.bouton_snooker);
-        bHelp = (Button) findViewById(R.id.bouton_help_regles);
 
         bMenu.setOnClickListener(clickListenerBoutons);
         bBillardFrancais.setOnClickListener(clickListenerBoutons);
         bBillardAmericain.setOnClickListener(clickListenerBoutons);
         bPoolAnglais.setOnClickListener(clickListenerBoutons);
         bSnooker.setOnClickListener(clickListenerBoutons);
-        bHelp.setOnClickListener(clickListenerBoutonHelp);
     }
 }

@@ -9,32 +9,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#007300"
+    android:background="@drawable/fond_tips"
     tools:context="com.incoherentglitch.mybillardassistant.Advise">
 
-    <TextView
-        android:text="Advise"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:id="@+id/tvAdvise"
-        android:textSize="36sp"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:background="#95ff75"
-        android:textStyle="normal|bold" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_media_previous"
-        android:layout_below="@+id/tvAdvise"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="13dp"
-        android:id="@+id/iReturn"
-        android:layout_alignParentLeft="true" />
 
     <Button
         android:id="@+id/bouton_conseils_internet"

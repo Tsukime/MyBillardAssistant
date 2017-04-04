@@ -60,24 +60,6 @@ public class Menu extends AppCompatActivity {
         }
     };
 
-    private View.OnClickListener clickListenerBoutonHelp = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            AlertDialog.Builder box = new AlertDialog.Builder(Menu.this);
-            box.setCancelable(true);
-            box.setTitle("Aide");
-            box.setMessage("Conditions générales d'utilisation");
-            box.setNeutralButton(R.string.bouton_dialog, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    //Toast.makeText(getBaseContext(), "help D:", Toast.LENGTH_SHORT).show();
-                }
-            });
-            AlertDialog dialog = box.create();
-            dialog.show();
-        }
-    };
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -89,14 +71,12 @@ public class Menu extends AppCompatActivity {
         bRegles = (Button) findViewById(R.id.bouton_regles);
         bScores = (Button) findViewById(R.id.bouton_scores);
         bConseils = (Button) findViewById(R.id.bouton_conseils);
-        bHelp = (Button) findViewById(R.id.bouton_help_menu);
 
         bCompte.setOnClickListener(clickListenerBoutons);
         bOptions.setOnClickListener(clickListenerBoutons);
         bRegles.setOnClickListener(clickListenerBoutons);
         bScores.setOnClickListener(clickListenerBoutons);
         bConseils.setOnClickListener(clickListenerBoutons);
-        bHelp.setOnClickListener(clickListenerBoutonHelp);
     }
 
 

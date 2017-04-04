@@ -4,73 +4,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#007300"
+    android:background="@drawable/fond_rules"
     tools:context="com.incoherentglitch.mybillardassistant.Regles">
 
-    <Button
-        android:id="@+id/bouton_help_regles"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:text="@string/bouton_help"
-        />
-
-    <ImageButton
-        app:srcCompat="@android:drawable/title_bar"
-        android:id="@+id/bouton_billardFrancais"
-        android:src="@drawable/drapeau_francais"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_alignTop="@+id/bouton_snooker"
-        android:layout_toRightOf="@+id/bouton_snooker"
-        android:layout_toEndOf="@+id/bouton_snooker"
-        android:layout_marginLeft="30dp"
-        android:layout_marginStart="30dp" />
-
-    <ImageButton
-        app:srcCompat="@android:drawable/title_bar"
-        android:id="@+id/bouton_poolAnglais"
-        android:src="@drawable/drapeau_united_kingdom"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_alignTop="@+id/bouton_billardAmericain"
-        android:layout_alignLeft="@+id/bouton_billardFrancais"
-        android:layout_alignStart="@+id/bouton_billardFrancais" />
-
-    <Button
-        android:id="@+id/bouton_menu_regles"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/menu_central"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bouton_menu"
-        android:layout_marginLeft="17dp"
-        android:layout_marginStart="17dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="100dp" />
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
 
-    <ImageButton
-        app:srcCompat="@android:drawable/title_bar"
-        android:id="@+id/bouton_snooker"
-        android:src="@drawable/drapeau_india"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_below="@+id/bouton_menu_regles"
-        android:layout_alignLeft="@+id/bouton_menu_regles"
-        android:layout_alignStart="@+id/bouton_menu_regles"
-        android:layout_marginTop="40dp" />
+        <ImageButton
+            app:srcCompat="@android:drawable/title_bar"
+            android:id="@+id/bouton_billardFrancais"
+            android:src="@drawable/drapeau_francais"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/bouton_snooker"
+            android:layout_toRightOf="@+id/bouton_snooker"
+            android:layout_toEndOf="@+id/bouton_snooker"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp" />
 
-    <ImageButton
-        app:srcCompat="@android:drawable/title_bar"
-        android:id="@+id/bouton_billardAmericain"
-        android:src="@drawable/drapeau_america"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_below="@+id/bouton_snooker"
-        android:layout_alignLeft="@+id/bouton_snooker"
-        android:layout_alignStart="@+id/bouton_snooker"
-        android:layout_marginTop="30dp" />
+        <ImageButton
+            app:srcCompat="@android:drawable/title_bar"
+            android:id="@+id/bouton_poolAnglais"
+            android:src="@drawable/drapeau_united_kingdom"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/bouton_billardAmericain"
+            android:layout_alignLeft="@+id/bouton_billardFrancais"
+            android:layout_alignStart="@+id/bouton_billardFrancais" />
 
+        <Button
+            android:id="@+id/bouton_menu_regles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bouton_menu"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            app:srcCompat="@android:drawable/title_bar"
+            android:id="@+id/bouton_snooker"
+            android:src="@drawable/drapeau_india"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/bouton_menu_regles"
+            android:layout_alignLeft="@+id/bouton_menu_regles"
+            android:layout_alignStart="@+id/bouton_menu_regles"
+            android:layout_marginTop="40dp" />
+
+        <ImageButton
+            app:srcCompat="@android:drawable/title_bar"
+            android:id="@+id/bouton_billardAmericain"
+            android:src="@drawable/drapeau_america"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/bouton_snooker"
+            android:layout_alignLeft="@+id/bouton_snooker"
+            android:layout_alignStart="@+id/bouton_snooker"
+            android:layout_marginTop="30dp" />
+    </RelativeLayout>
 </RelativeLayout>
