@@ -66,6 +66,43 @@ public class Option extends Activity {
         setPlayer_Level(0);
     }
 
+    public void langage_French() {
+	setLangage(0);
+    }
+
+    public void langage_English() {
+	setLangage(1);
+    }
+
+    public void set_times_to_Week() {
+	setTime_Stockage_Score(7);
+	setTime_Stockage_Tips(7);
+    }
+
+    public void set_times_to_Month() {
+	setTime_Stockage_Score(30);
+	setTime_Stockage_Tips(30);
+    }
+
+    public void set_times_to_Always() {
+	setTime_Stockage_Score(-1);
+	setTime_Stockage_Tips(-1);
+    }
+
+    public void set_player_level_to_Starter() {
+	setPlayer_Level(0);
+    }
+
+    public void set_player_level_to_Amateur() {
+	setPlayer_Level(1);
+    }
+
+    public void set_player_level_to_Confirmed() {
+	setPlayer_Level(2);
+    }
+
+
+
     private View.OnClickListener clickListenerBoutons = new View.OnClickListener() {
         // private Intent deuxiemeActivite = null;
         @Override
