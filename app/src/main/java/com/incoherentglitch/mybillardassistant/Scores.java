@@ -67,15 +67,15 @@ public class Scores extends Activity {
         setContentView(R.layout.activity_scores);
 
         barreRecherche = (EditText) findViewById(R.id.barre_recherche);
-        bFiltres = (Button) findViewById(R.id.bouton_selectFilters);
-        bRecherche = (Button) findViewById(R.id.bouton_recherche);
+        //bFiltres = (Button) findViewById(R.id.bouton_selectFilters);
+        //bRecherche = (Button) findViewById(R.id.bouton_recherche);
         bNouveau = (Button) findViewById(R.id.bouton_nouveau);
         bMenu = (Button) findViewById(R.id.bouton_menu_scores);
         bHelp = (Button) findViewById(R.id.bouton_help_scores);
 
         //barreRecherche.setOnClickListener(clickListenerBoutons);
-        bFiltres.setOnClickListener(clickListenerBoutons);
-        bRecherche.setOnClickListener(clickListenerBoutons);
+        //bFiltres.setOnClickListener(clickListenerBoutons);
+        //bRecherche.setOnClickListener(clickListenerBoutons);
         bNouveau.setOnClickListener(clickListenerBoutons);
         bMenu.setOnClickListener(clickListenerBoutons);
         bHelp.setOnClickListener(clickListenerBoutonHelp);

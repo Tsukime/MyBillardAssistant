@@ -1,4 +1,10 @@
-public class DataBaseHandler extends SQLiteOpenHelper 
+package com.incoherentglitch.mybillardassistant;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class DataBaseHandler extends SQLiteOpenHelper
 {
 	public static final String PARTIE_KEY = "id_partie";
 	public static final String PARTIE_NOM = "nom_partie";
@@ -39,8 +45,8 @@ public class DataBaseHandler extends SQLiteOpenHelper
 		JOUEUR_PASSWORD + " TEXT);";
 	
 	public static final String PARTIE_TABLE_DROP = "DROP TABLE IF EXISTS " + PARTIE_TABLE_NAME + ";";
-	public static final String JOUEUR_TABLE_DROP = "DROP TABLE IF EXISTS " + JOUEUR_TABLE_NAME + ";"
-	public static final String SCORE_TABLE_DROP = "DROP TABLE IF EXISTS " + SCORE_TABLE_NAME + ";"
+	public static final String JOUEUR_TABLE_DROP = "DROP TABLE IF EXISTS " + JOUEUR_TABLE_NAME + ";";
+	public static final String SCORE_TABLE_DROP = "DROP TABLE IF EXISTS " + SCORE_TABLE_NAME + ";";
 
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
@@ -50,7 +56,7 @@ public class DataBaseHandler extends SQLiteOpenHelper
 		onCreate(db);
 	}	
 	
-	public DataBaseHandler(Context context, String name, CursurFactory factory, int version)
+	public DataBaseHandler(Context context, String name, SQLiteDatabase.CursorFactory factory, int version)
 	{
 		super(context, name, factory, version);
 	}
@@ -60,7 +66,7 @@ public class DataBaseHandler extends SQLiteOpenHelper
 	{
 		db.execSQL(PARTIE_TABLE_CREATE);
 		db.execSQL(JOUEUR_TABLE_CREATE);
-		db.execSQL(SCORE_JOUEUR_CREATE);
+		db.execSQL(SCORE_TABLE_CREATE);
 	}
 	
 }
