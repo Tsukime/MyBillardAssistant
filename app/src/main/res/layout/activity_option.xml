@@ -24,26 +24,125 @@
         android:textColor="#000000"
         android:background="#95ff75"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
 
-    <Button
-        android:id="@+id/bouton_menu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/bouton_menu"
-        android:layout_marginBottom="32dp"
-        android:layout_marginLeft="13dp"
-        android:layout_marginStart="13dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_media_previous"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="19dp"
-        android:id="@+id/iReturn"
-        android:layout_below="@+id/tvOption"
-        android:layout_alignParentStart="true" />
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/magic_btn_langue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Langue"
+            android:layout_marginTop="180dp"
+            android:layout_gravity="center" />
+        <LinearLayout
+            android:id="@+id/magic_layout_langue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+
+            android:visibility="gone">
+            <ImageButton
+                app:srcCompat="@android:drawable/title_bar"
+                android:id="@+id/bouton_billardFrancais"
+                android:src="@drawable/drapeau_francais"
+                android:layout_width="52dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                />
+            <ImageButton
+                app:srcCompat="@android:drawable/title_bar"
+                android:id="@+id/bouton_poolAnglais"
+                android:src="@drawable/drapeau_united_kingdom"
+                android:layout_width="52dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/magic_btn_temps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temps de Stockage"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/magic_btn_langue"
+            android:layout_gravity="center" />
+        <LinearLayout
+            android:id="@+id/magic_layout_temps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/btn_semaine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 semaine"
+                android:layout_below="@+id/magic_btn_langue"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/btn_mois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 mois"
+                android:layout_below="@+id/magic_btn_langue"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/btn_indefini"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indéfini"
+                android:layout_below="@+id/magic_btn_langue"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/magic_btn_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Niveau"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/magic_btn_stockage"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:id="@+id/magic_layout_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/btn_debutant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Débutant"
+                android:layout_below="@+id/magic_btn_langue"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/btn_amateur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amateur"
+                android:layout_below="@+id/magic_btn_langue"
+                android:layout_gravity="center" />
+            <Button
+                android:id="@+id/btn_confirme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirmé"
+                android:layout_below="@+id/magic_btn_langue"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
 
 </RelativeLayout>
