@@ -32,6 +32,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_Introduction" />
         </LinearLayout>
 
@@ -50,10 +52,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_1_But_du_jeu_1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_1_But_du_jeu_2"/>
         </LinearLayout>
 
@@ -71,103 +77,145 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_2_list1"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_2_list1_item1"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_2_list1_item2"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_2_list2"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_2_list2_item1"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_2_list2_item2"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_2_list2_item3"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_2_list2_item4"
                 android:layout_marginLeft="20dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception_1"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception_1_list"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception_1_list_item1"
                 android:layout_marginLeft="40dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception_1_list_item2_list1"
                 android:layout_marginLeft="40dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception_1_list_item2_list1_item1"
                 android:layout_marginLeft="60dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception_1_list_item2_list1_item2"
                 android:layout_marginLeft="60dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception_1_list_item2_list1_item3"
                 android:layout_marginLeft="60dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception_1_list_item2_list2"
                 android:layout_marginLeft="40dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception_1_list_item2_list2_item1"
                 android:layout_marginLeft="60dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception_1_list_item2_list2_item2"
                 android:layout_marginLeft="60dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_2_Départ_du_jeu_casse_3_exception_1_list_item2_list2_item3"
                 android:layout_marginLeft="60dp"/>
         </LinearLayout>
@@ -186,32 +234,46 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_3_Choix_des_couleurs_1" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_3_Choix_des_couleurs_2" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_3_Choix_des_couleurs_3" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_3_Choix_des_couleurs_4_list" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_3_Choix_des_couleurs_4_list_item1"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_3_Choix_des_couleurs_4_list_item2"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_3_Choix_des_couleurs_4_list_item3"
                 android:layout_marginLeft="20dp"/>
         </LinearLayout>
@@ -230,54 +292,78 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_1_list" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_1_list_item1"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_1_list_item2"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_2" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_3" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_4" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_5"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_6_list" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_6_list_item1"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_6_list_item2"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_7" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_4_Tir_reglementaire_7" />
         </LinearLayout>
 
@@ -295,14 +381,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_5_Snook_total_1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_5_Snook_total_2"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_5_Snook_total_3"/>
         </LinearLayout>
 
@@ -320,10 +412,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_6_Fautes_2"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_6_Fautes_1_list"/>
 
             <Button
@@ -344,130 +440,182 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item1"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item2"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item3"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item4"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item5"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item6"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item7"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item8"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item9"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item10"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item11"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item12"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item13"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item14"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item15"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item16"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item17"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item18"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item19"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item20"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item21"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item22"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item23"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item24"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_7_Fautes_standart_1_list_item25"
                     android:layout_marginLeft="20dp"/>
             </LinearLayout>
@@ -490,59 +638,83 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_1"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_2_list"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_2_list_item1"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_2_list_item2"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_2_list_item3"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_2_list_item4"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_2_list_item5"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_2_list_item6"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_2_list_item7"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_2_list_item8"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_2_list_item9"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_8_Fautes_non_standart_2_list_item10"
                     android:layout_marginLeft="20dp"/>
             </LinearLayout>
@@ -565,62 +737,88 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_1"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_2_list_item1"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_2_list_item2"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_3"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_4"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_5"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_5_1_list"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_5_1_list_item1"
                     android:layout_marginLeft="40dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_5_1_list_item2"
                     android:layout_marginLeft="40dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_5_2"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_5_3"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_5_4"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_9_Fautes_snooker_5_5"
                     android:layout_marginLeft="20dp"/>
             </LinearLayout>
@@ -643,38 +841,54 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_10_Fautes_graves_1"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_10_Fautes_graves_2"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_10_Fautes_graves_3"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_10_Fautes_graves_4_list_item1"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_10_Fautes_graves_4_list_item2"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_10_Fautes_graves_4_list_item3"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_10_Fautes_graves_4_list_item4"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_10_Fautes_graves_4_list_item5"
                     android:layout_marginLeft="20dp"/>
             </LinearLayout>
@@ -697,34 +911,50 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_11_Fautes_perte_partie_item1"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_11_Fautes_perte_partie_item2"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_11_Fautes_perte_partie_item3"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_11_Fautes_perte_partie_item4"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_11_Fautes_perte_partie_item5"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_11_Fautes_perte_partie_item6"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_11_Fautes_perte_partie_item7"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
                     android:text="@string/I_A_11_Fautes_perte_partie_item8"/>
             </LinearLayout>
 
@@ -745,44 +975,62 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_12_Penalites_suivant_fautes_1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_12_Penalites_suivant_fautes_2_list"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_12_Penalites_suivant_fautes_2_list_item1"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_12_Penalites_suivant_fautes_2_list_item2"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_12_Penalites_suivant_fautes_2_list_item3"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_12_Penalites_suivant_fautes_2_list_item4"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_12_Penalites_suivant_fautes_2_list_item5"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_12_Penalites_suivant_fautes_2_list_item6"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_12_Penalites_suivant_fautes_2_list_item7"
                 android:layout_marginLeft="20dp"/>
         </LinearLayout>
@@ -801,10 +1049,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_13_Aide_1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_13_Aide_1"/>
         </LinearLayout>
 
@@ -823,10 +1075,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_14_Controle_1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_14_Controle_2"/>
         </LinearLayout>
 
@@ -845,22 +1101,32 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_15_Contacts_1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_15_Contacts_2"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_15_Contacts_3"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_15_Contacts_4"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_15_Contacts_5"/>
         </LinearLayout>
 
@@ -878,25 +1144,35 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_16_Interferance_1_list"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_16_Interferance_1_list_item1"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_16_Interferance_1_list_item2"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_16_Interferance_1_list_item3"
                 android:layout_marginLeft="20dp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_16_Interferance_2"/>
         </LinearLayout>
 
@@ -914,14 +1190,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_17_Repere_1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_17_Repere_2"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_17_Repere_3"/>
         </LinearLayout>
 
@@ -939,6 +1221,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_18_Tir_impossible_1"/>
         </LinearLayout>
 
@@ -956,6 +1240,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
                 android:text="@string/I_A_19_Impasse_1"/>
         </LinearLayout>
 
