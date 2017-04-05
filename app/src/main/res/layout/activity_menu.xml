@@ -63,7 +63,7 @@
         >
         <ImageView
             android:id="@+id/bouton_compte"
-            android:src="@drawable/compte"
+            android:src="@drawable/compte_bord"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:padding="0dip"
@@ -78,7 +78,7 @@
 
         <ImageView
             android:id="@+id/bouton_options"
-            android:src="@drawable/option"
+            android:src="@drawable/option_bord"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:padding="0dip"

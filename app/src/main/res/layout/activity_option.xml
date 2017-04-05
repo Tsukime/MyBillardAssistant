@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.incoherentglitch.mybillardassistant.Option"
-    android:background="@drawable/fond_rules">
+    android:background="@drawable/fond_options">
 
     <LinearLayout
         xmlns:tools="http://schemas.android.com/tools"
@@ -32,12 +32,12 @@
             android:layout_marginLeft="110dp"
             android:layout_marginRight="10dp"
             android:orientation="horizontal"
-
             android:visibility="gone">
+
             <ImageButton
                 app:srcCompat="@android:drawable/title_bar"
                 android:id="@+id/bouton_billardFrancais"
-                android:src="@drawable/drapeau_francais"
+                android:src="@drawable/mini_fr_bord"
                 android:layout_width="52dp"
                 android:layout_height="35dp"
                 android:layout_gravity="center"
@@ -45,7 +45,7 @@
             <ImageButton
                 app:srcCompat="@android:drawable/title_bar"
                 android:id="@+id/bouton_poolAnglais"
-                android:src="@drawable/drapeau_united_kingdom"
+                android:src="@drawable/mini_uk_bord"
                 android:layout_width="52dp"
                 android:layout_height="35dp"
                 android:layout_gravity="center"
