@@ -9,6 +9,11 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
+import android.widget.TableLayout;
+import android.widget.TableRow;
+import android.widget.TextView;
 
 
 public class Scores extends Activity {
@@ -76,7 +81,35 @@ public class Scores extends Activity {
         //barreRecherche.setOnClickListener(clickListenerBoutons);
         //bFiltres.setOnClickListener(clickListenerBoutons);
         //bRecherche.setOnClickListener(clickListenerBoutons);
-        bNouveau.setOnClickListener(clickListenerBoutons);
+        bNouveau.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                /* Find Tablelayout defined in main.xml */
+                TableLayout tl = (TableLayout) findViewById(R.id.tableau_scores);
+                /* Create a new row to be added. */
+                TableRow tr = new TableRow(Scores.this);
+                tr.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.FILL_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
+                /* Create a Button to be the row-content. */
+                TextView nom = new TextView(Scores.this);
+                TextView type = new TextView(Scores.this);
+                TextView date = new TextView(Scores.this);
+                ImageButton edit = new ImageButton(Scores.this);
+                ImageButton suppr = new ImageButton(Scores.this);
+                nom.setText("nom partie");
+                type.setText("type partie");
+                date.setText("date partie");
+                edit.setImageResource(R.drawable.crayon);
+
+                suppr.setImageResource(R.drawable.croix_rouge);
+
+                tr.addView(nom);
+                tr.addView(type);
+                tr.addView(date);
+             //   tr.addView(edit);
+             //   tr.addView(suppr);
+                tl.addView(tr, new TableLayout.LayoutParams(TableLayout.LayoutParams.FILL_PARENT, TableLayout.LayoutParams.WRAP_CONTENT));
+            }
+        });
         bMenu.setOnClickListener(clickListenerBoutons);
         bHelp.setOnClickListener(clickListenerBoutonHelp);
     }
