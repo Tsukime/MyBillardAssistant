@@ -8,7 +8,7 @@
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/menu_central"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_centerHorizontal="true"
@@ -25,12 +25,13 @@
             android:layout_alignParentTop="true"
             android:text="@string/bouton_menu" />
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/layout_recherche"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/bouton_menu_scores"
             android:layout_marginTop="20dp"
+            android:orientation="horizontal"
             >
 
             <Button
@@ -39,53 +40,42 @@
                 android:layout_height="50dp"
                 android:text="@string/bouton_nouveau"/>
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/bouton_nouveau"
-                android:layout_toEndOf="@id/bouton_nouveau"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                >
 
-                <EditText
-                    android:id="@+id/barre_recherche"
-                    android:layout_width="350dp"
-                    android:layout_height="35dp"
-                    android:hint="@string/barre_recherche"
-                    android:lines="1"
-                    android:gravity="center"
-                    android:background="#FFFFFF"
-                    android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@+id/bouton_recherche" />
+            <EditText
+                android:id="@+id/barre_recherche"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="2dp"
+                android:hint="@string/barre_recherche"
+                android:lines="1"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:layout_centerVertical="true" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+            <ImageButton
+                app:srcCompat="@android:drawable/ic_search_category_default"
+                android:id="@+id/bouton_recherche"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="@string/bouton_recherche" />
 
-                <ImageButton
-                    app:srcCompat="@android:drawable/ic_search_category_default"
-                    android:id="@+id/bouton_recherche"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_toLeftOf="@+id/bouton_selectFilters"
-                    android:layout_toStartOf="@id/bouton_selectFilters"
-                    android:text="@string/bouton_recherche" />
-
-                <ImageButton
-                    app:srcCompat="@android:drawable/ic_menu_more"
-                    android:id="@+id/bouton_selectFilters"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true"
-                    android:text="@string/bouton_selectFilters"/>
-
-            </RelativeLayout>
-
-        </RelativeLayout>
+            <ImageButton
+                app:srcCompat="@android:drawable/ic_menu_more"
+                android:id="@+id/bouton_selectFilters"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:text="@string/bouton_selectFilters"/>
+        </LinearLayout>
 
         <ScrollView
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:layout_below="@id/layout_recherche"
-            android:layout_above="@+id/bouton_help_scores"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp">
 
@@ -137,21 +127,21 @@
                         app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:layout_column="4"
-                        android:layout_marginEnd="0dp"
-                        android:layout_marginRight="0dp"/>
+                        android:layout_column="4" />
                 </TableRow>
             </TableLayout>
         </ScrollView>
 
-        <Button
-            android:id="@+id/bouton_help_scores"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:text="@string/bouton_help"/>
     </RelativeLayout>
 
+
+
+    <Button
+        android:id="@+id/bouton_help_scores"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/bouton_help"/>
 </RelativeLayout>
