@@ -3,8 +3,6 @@ package com.incoherentglitch.mybillardassistant;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.incoherentglitch.mybillardassistant.DataBaseHandler;
-
 public abstract class BaseDAO {
 	  // Nous sommes à la première version de la base
 	  // Si je décide de la mettre à jour, il faudra changer cet attribut

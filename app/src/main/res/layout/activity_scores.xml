@@ -57,8 +57,7 @@
                     android:gravity="center"
                     android:background="#FFFFFF"
                     android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@+id/bouton_recherche"
-                    android:layout_toStartOf="@+id/bouton_recherche" />
+                    android:layout_toLeftOf="@+id/bouton_recherche" />
 
                 <ImageButton
                     app:srcCompat="@android:drawable/ic_search_category_default"
@@ -109,12 +108,14 @@
                         android:layout_width="wrap_content"
                         android:text="@string/date_partie"
                         android:layout_column="2"/>
-                    <Button
+                    <ImageButton
+                        app:srcCompat="@android:drawable/ic_menu_edit"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_column="3"
                         />
-                    <Button
+                    <ImageButton
+                        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_column="4"
@@ -126,12 +127,14 @@
                         android:layout_width="wrap_content"
                         android:text="@string/exemple_string"
                         android:layout_column="0"/>
-                    <Button
+                    <ImageButton
+                        app:srcCompat="@android:drawable/ic_menu_edit"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_column="3"
                         />
-                    <Button
+                    <ImageButton
+                        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_column="4"

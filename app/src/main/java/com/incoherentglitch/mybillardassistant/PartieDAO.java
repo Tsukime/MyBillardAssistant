@@ -3,8 +3,6 @@ package com.incoherentglitch.mybillardassistant;
 import android.content.ContentValues;
 import android.content.Context;
 
-import com.incoherentglitch.mybillardassistant.BaseDAO;
-
 import static android.provider.Contacts.SettingsColumns.KEY;
 
 public class PartieDAO extends BaseDAO {
