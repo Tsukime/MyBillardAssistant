@@ -58,7 +58,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
                         android:textColor="#ffffff"
-                        android:text="@string/II_A_1_Introduction_1" />
+                        android:text="@string/II_A_1_Introduction_2" />
                 </LinearLayout>
 
                 <Button
