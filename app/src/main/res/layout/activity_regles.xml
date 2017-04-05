@@ -24,7 +24,7 @@
         <ImageButton
             app:srcCompat="@android:drawable/title_bar"
             android:id="@+id/bouton_billardFrancais"
-            android:src="@drawable/drapeau_francais"
+            android:src="@drawable/drapeau_francais_bord"
             android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_alignTop="@+id/bouton_snooker"
@@ -36,7 +36,7 @@
         <ImageButton
             app:srcCompat="@android:drawable/title_bar"
             android:id="@+id/bouton_poolAnglais"
-            android:src="@drawable/drapeau_united_kingdom"
+            android:src="@drawable/drapeau_united_kingdom_bord"
             android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_alignTop="@+id/bouton_billardAmericain"
@@ -55,7 +55,7 @@
         <ImageButton
             app:srcCompat="@android:drawable/title_bar"
             android:id="@+id/bouton_snooker"
-            android:src="@drawable/drapeau_india"
+            android:src="@drawable/drapeau_india_bord"
             android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_below="@+id/bouton_menu_regles"
@@ -66,7 +66,7 @@
         <ImageButton
             app:srcCompat="@android:drawable/title_bar"
             android:id="@+id/bouton_billardAmericain"
-            android:src="@drawable/drapeau_america"
+            android:src="@drawable/drapeau_america_bord"
             android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_below="@+id/bouton_snooker"
