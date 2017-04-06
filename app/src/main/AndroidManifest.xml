@@ -16,16 +16,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".Regles" />
-        <activity android:name=".Scores" />
+        <activity android:name=".Scores"
+            android:windowSoftInputMode="adjustNothing" />
         <activity android:name=".Advise" />
         <activity android:name=".Option" />
         <activity android:name=".UserArea" />
-        <activity android:name=".Login" />
-        <activity android:name=".Register" />
-        <activity
-            android:name=".ReglesAnglais"
-            android:label="@string/title_activity_accordion"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name=".Register"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name=".ReglesAnglais" />
         <activity android:name=".ConseilsInternet" />
         <activity android:name=".ReglesFrancais" />
         <activity android:name=".ReglesSnooker" />
