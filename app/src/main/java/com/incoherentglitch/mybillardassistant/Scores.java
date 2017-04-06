@@ -24,6 +24,8 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 
+import java.util.Calendar;
+
 
 public class Scores extends Activity {
 
@@ -144,7 +146,12 @@ public class Scores extends Activity {
         nom.setPadding(10, 20, 10, 0);
         type.setText(typeP);
         type.setPadding(10, 20, 10, 0);
-        date.setText("date partie");
+
+        Calendar c = Calendar.getInstance();
+        int jour = c.get(Calendar.DAY_OF_MONTH);
+        int mois = c.get(Calendar.MONTH)+1; //janvier = 0
+        int annee = c.get(Calendar.YEAR);
+        date.setText(jour + "/" + mois + "/" + annee);
         date.setPadding(10, 20, 10, 0);
 
         edit.setBackgroundResource(R.drawable.mini_crayon);
