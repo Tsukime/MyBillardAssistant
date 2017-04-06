@@ -18,7 +18,8 @@ import android.widget.TextView;
 
 public class Scores extends Activity {
 
-    private Button bMenu, bHelp, bRecherche, bNouveau, bFiltres;
+    private Button bMenu, bHelp, bRecherche, bFiltres;
+    private ImageButton bNouveau;
     private EditText barreRecherche;
 
     private View.OnClickListener clickListenerBoutons = new View.OnClickListener() {
@@ -74,7 +75,7 @@ public class Scores extends Activity {
         barreRecherche = (EditText) findViewById(R.id.barre_recherche);
         //bFiltres = (Button) findViewById(R.id.bouton_selectFilters);
         //bRecherche = (Button) findViewById(R.id.bouton_recherche);
-        bNouveau = (Button) findViewById(R.id.bouton_nouveau);
+        bNouveau = (ImageButton) findViewById(R.id.bouton_nouveau);
         bMenu = (Button) findViewById(R.id.bouton_menu_scores);
         bHelp = (Button) findViewById(R.id.bouton_help_scores);
 
@@ -96,17 +97,17 @@ public class Scores extends Activity {
                 ImageButton edit = new ImageButton(Scores.this);
                 ImageButton suppr = new ImageButton(Scores.this);
                 nom.setText("nom partie");
+                nom.setPadding(0, 20, 0, 0);
                 type.setText("type partie");
                 date.setText("date partie");
-                edit.setImageResource(R.drawable.crayon);
-
-                suppr.setImageResource(R.drawable.croix_rouge);
-
+                edit.setBackgroundResource(R.drawable.mini_crayon);
+                edit.setMaxWidth(20);
+                suppr.setBackgroundResource(R.drawable.mini_croix_rouge);
                 tr.addView(nom);
                 tr.addView(type);
                 tr.addView(date);
-             //   tr.addView(edit);
-             //   tr.addView(suppr);
+                tr.addView(edit);
+                tr.addView(suppr);
                 tl.addView(tr, new TableLayout.LayoutParams(TableLayout.LayoutParams.FILL_PARENT, TableLayout.LayoutParams.WRAP_CONTENT));
             }
         });
