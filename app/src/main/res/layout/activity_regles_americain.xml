@@ -6,6 +6,13 @@
     android:background="@drawable/fond_billard_americain"
     tools:context="com.incoherentglitch.mybillardassistant.ReglesAmericain">
 
+    <!--RelativeLayout
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="#ffffff"-->
+    <!--/RelativeLayout-->
+
+
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
