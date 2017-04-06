@@ -3,16 +3,75 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/fond_billard_americain"
+    android:background="#007300"
     tools:context="com.incoherentglitch.mybillardassistant.ReglesAmericain">
 
-    <!--RelativeLayout
+    <RelativeLayout
         android:layout_width="10dp"
         android:layout_height="match_parent"
-        android:background="#ffffff"-->
-    <!--/RelativeLayout-->
+        android:background="#730000">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#730000">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#730000">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="#730000">
+    </RelativeLayout>
 
+    <RelativeLayout
+        android:id="@+id/cercles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/accepter"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/accepter"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/accepter"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/accepter"/>
+    </RelativeLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Billards Americains"
+        android:textColor="#DDD96E"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="35dp"/>
+
+    
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
