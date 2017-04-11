@@ -4,7 +4,8 @@
     android:layout_height="fill_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="#007300"
-    tools:context="com.incoherentglitch.mybillardassistant.ReglesAmericain">
+    tools:context="com.incoherentglitch.mybillardassistant.ReglesAmericain"
+    >
 
     <RelativeLayout
         android:layout_width="10dp"
@@ -71,8 +72,9 @@
         android:typeface="serif"
         android:textSize="35dp"/>
 
-    
+
     <ScrollView
+        android:id="@+id/layout_general"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"

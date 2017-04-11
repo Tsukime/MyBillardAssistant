@@ -353,7 +353,7 @@
     <string name="I_B_14_Jeu_a_4_5">Des partenaires peuvent se consulter pendant le jeu, mais pas pendant que le joueur actif est à la table.</string>
 
     <string name="II_Billard_americain">Billard américain</string>
-    <string name="II_A_Regles_communes_americain">Règles communes des Billard américain</string>
+    <string name="II_A_Regles_communes_americain">Règles communes des Billards américains</string>
     <string name="II_A_1_Introduction_1">\tAu début de la partie, la bille blanche est placée dans le quart supérieur de la table, au gré du joueur qui a la main, et les billes restantes sont disposées en paquet, soit en losange soit en triangle, la bille de tête étant placée sur la mouche inférieure.</string>
     <string name="II_A_1_Introduction_2">\tLe premier joueur qui joue casse le paquet.</string>
     <string name="II_A_2_Fautes">Fautes</string>
