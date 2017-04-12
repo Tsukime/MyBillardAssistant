@@ -142,32 +142,6 @@ public class Option extends Activity {
             }
         });
 
-        Button findMagicBtn2 = (Button) findViewById(R.id.magic_btn_temps);
-        findMagicBtn2.setOnClickListener(new View.OnClickListener() {
-            boolean animationClosing = false;
-            @Override
-            public void onClick(View v) {
-                if (!animationClosing){
-                    final LinearLayout findMagicLl = (LinearLayout) findViewById(R.id.magic_layout_temps);
-                    if (findMagicLl.getVisibility() == View.VISIBLE) {
-                        animationClosing = true;
-                        findMagicLl.animate().alpha(0f).setDuration(200).withEndAction(new Runnable() {
-                            @Override
-                            public void run() {
-                                findMagicLl.setVisibility(View.GONE);
-                                animationClosing = false;
-                            }
-                        }).start();
-                    } else {
-
-                        findMagicLl.setVisibility(View.VISIBLE);
-                        findMagicLl.setAlpha(1f);
-                    }
-                }
-
-            }
-        });
-
         Button findMagicBtn3 = (Button) findViewById(R.id.magic_btn_level);
         findMagicBtn3.setOnClickListener(new View.OnClickListener() {
             boolean animationClosing = false;
