@@ -393,62 +393,62 @@
 
     <string name="II_C_Jeu_de_la_9">Je jeu de la 9</string>
     <string name="II_C_1_But_du_jeu">But du jeu</string>
-    <string name="II_C_1_But_du_jeu_1">Les huit billes pleines et la 9 sont disposées en losange, la 1 en tête et la 9 au milieu. Le but du jeu est d\'empocher les billes dans l\'ordre croissant (1, 2, 3, 4, 5, 6, 7, 8 et enfin la 9). Tant qu\'un joueur empoche une bille, il continue de jouer.</string>
-    <string name="II_C_1_But_du_jeu_2">Le gagnant est, en fin de comptes, celui qui empoche la 9. </string>
+    <string name="II_C_1_But_du_jeu_1">\tLes huit billes pleines et la 9 sont disposées en losange, la 1 en tête et la 9 au milieu. Le but du jeu est d\'empocher les billes dans l\'ordre croissant (1, 2, 3, 4, 5, 6, 7, 8 et enfin la 9). Tant qu\'un joueur empoche une bille, il continue de jouer.</string>
+    <string name="II_C_1_But_du_jeu_2">\tLe gagnant est, en fin de comptes, celui qui empoche la 9. </string>
     <string name="II_C_2_Deroulement">Déroulement de partie</string>
-    <string name="II_C_2_Deroulement_1">La règle principale dit qu\'il faut toucher d\'abord la bille sur le tapis dont le numéro est le plus faible (ce qui explique la 1 en tête lors de la casse), mais n\'importe quelle bille empochée donne le droit de rejouer.</string>
-    <string name="II_C_2_Deroulement_2">Exemple : la bille de plus faible numéro sur le tapis est la 3, le joueur touche la 3, qui elle-même touche la 6 qui rentre, ce même joueur rejoue et vise alors à nouveau la 3.</string>
-    <string name="II_C_2_Deroulement_3">Sur ce principe, si le joueur empoche la 9 dès le coup de casse, il gagne instantanément la partie et les billes sont replacées en losange. Le gagnant de la partie précédente casse pour la suivante.</string>
+    <string name="II_C_2_Deroulement_1">\tLa règle principale dit qu\'il faut toucher d\'abord la bille sur le tapis dont le numéro est le plus faible (ce qui explique la 1 en tête lors de la casse), mais n\'importe quelle bille empochée donne le droit de rejouer.</string>
+    <string name="II_C_2_Deroulement_2">\tExemple : la bille de plus faible numéro sur le tapis est la 3, le joueur touche la 3, qui elle-même touche la 6 qui rentre, ce même joueur rejoue et vise alors à nouveau la 3.</string>
+    <string name="II_C_2_Deroulement_3">\tSur ce principe, si le joueur empoche la 9 dès le coup de casse, il gagne instantanément la partie et les billes sont replacées en losange. Le gagnant de la partie précédente casse pour la suivante.</string>
     <string name="II_C_3_Fautes">Fautes</string>
-    <string name="II_C_3_Fautes_item1">La bille blanche est empochée.</string>
-    <string name="II_C_3_Fautes_item2">La bille touchée en premier n\'est pas celle avec la valeur la plus faible.</string>
-    <string name="II_C_3_Fautes_item3">Aucune bille n\'est touchée.</string>
+    <string name="II_C_3_Fautes_item1">\t- La bille blanche est empochée.</string>
+    <string name="II_C_3_Fautes_item2">\t- La bille touchée en premier n\'est pas celle avec la valeur la plus faible.</string>
+    <string name="II_C_3_Fautes_item3">\t- Aucune bille n\'est touchée.</string>
 
     <string name="II_D_Jeu_de_la_9_continue">Jeu de la 9 continue</string>
-    <string name="II_D_1_Introduction_1">Cette variante du jeu de la 9 donne plus de piment au jeu et récompense davantage la régularité à l\'occasion. </string>
+    <string name="II_D_1_Introduction_1">\tCette variante du jeu de la 9 donne plus de piment au jeu et récompense davantage la régularité à l\'occasion. </string>
     <string name="II_D_2_Points">Les points</string>
-    <string name="II_D_1_Points_1">En effet, ce jeu se compte en points (50 ou 100 généralement) et se joue en manches (une manche s\'achève quand la bille 9 est empochée dans les bonnes conditions). Comme dans la règle de la 9, il faut toujours toucher en premier la bille la plus petite sur la table. De plus, le fait d\'empocher la bille 9 avec la plus petite valeur sur la table octroie un bonus conséquent au total des points.</string>
-    <string name="II_D_2_Points_2">Les points se cumulent dans un même coup et il est impossible d\'avoir un score négatif.</string>
-    <string name="II_D_1_Points_3">Ainsi, en respectant cette règle, les points se calculent de la manière suivante :</string>
-    <string name="II_D_1_Points_3_list">Les coups gagnants :</string>
-    <string name="II_D_1_Points_3_list_item1">poche directe = 1 point (vous touchez la bille dont la valeur est la plus basse et vous l\'empochez dans le même coup) ;</string>
-    <string name="II_D_1_Points_3_list_item2">poche avec touche = 2 points (vous empochez une bille de n\'importe quelle valeur hormis la 9, après avoir touché la bille dont la valeur est la plus basse) ;</string>
-    <string name="II_D_1_Points_3_list_item3">la 9 empochée dans les bonnes conditions = ***spécial*** (la manche s\'arrête et le joueur qui a empoché la 9, commence la manche suivante) ;</string>
-    <string name="II_D_1_Points_3_list_item4_list">la 9 empochée par la :</string>
-    <string name="II_D_1_Points_3_list_item4_list_item1">1 = 20 points</string>
-    <string name="II_D_1_Points_3_list_item4_list_item2">2 = 16 points</string>
-    <string name="II_D_1_Points_3_list_item4_list_item3">3 = 14 points</string>
-    <string name="II_D_1_Points_3_list_item4_list_item4">4 = 12 points</string>
-    <string name="II_D_1_Points_3_list_item4_list_item5">5 = 10 points</string>
-    <string name="II_D_1_Points_3_list_item4_list_item6">6 = 8 points</string>
-    <string name="II_D_1_Points_3_list_item4_list_item7">7 = 6 points</string>
-    <string name="II_D_1_Points_3_list_item4_list_item8">8 = 2 points</string>
+    <string name="II_D_1_Points_1">\tEn effet, ce jeu se compte en points (50 ou 100 généralement) et se joue en manches (une manche s\'achève quand la bille 9 est empochée dans les bonnes conditions). Comme dans la règle de la 9, il faut toujours toucher en premier la bille la plus petite sur la table. De plus, le fait d\'empocher la bille 9 avec la plus petite valeur sur la table octroie un bonus conséquent au total des points.</string>
+    <string name="II_D_2_Points_2">\tLes points se cumulent dans un même coup et il est impossible d\'avoir un score négatif.</string>
+    <string name="II_D_1_Points_3">\tAinsi, en respectant cette règle, les points se calculent de la manière suivante :</string>
+    <string name="II_D_1_Points_3_list">\tLes coups gagnants :</string>
+    <string name="II_D_1_Points_3_list_item1">\t- poche directe = 1 point (vous touchez la bille dont la valeur est la plus basse et vous l\'empochez dans le même coup) ;</string>
+    <string name="II_D_1_Points_3_list_item2">\t- poche avec touche = 2 points (vous empochez une bille de n\'importe quelle valeur hormis la 9, après avoir touché la bille dont la valeur est la plus basse) ;</string>
+    <string name="II_D_1_Points_3_list_item3">\t- la 9 empochée dans les bonnes conditions = ***spécial*** (la manche s\'arrête et le joueur qui a empoché la 9, commence la manche suivante) ;</string>
+    <string name="II_D_1_Points_3_list_item4_list">\t- la 9 empochée par la :</string>
+    <string name="II_D_1_Points_3_list_item4_list_item1">\t- 1 = 20 points</string>
+    <string name="II_D_1_Points_3_list_item4_list_item2">\t- 2 = 16 points</string>
+    <string name="II_D_1_Points_3_list_item4_list_item3">\t- 3 = 14 points</string>
+    <string name="II_D_1_Points_3_list_item4_list_item4">\t- 4 = 12 points</string>
+    <string name="II_D_1_Points_3_list_item4_list_item5">\t- 5 = 10 points</string>
+    <string name="II_D_1_Points_3_list_item4_list_item6">\t- 6 = 8 points</string>
+    <string name="II_D_1_Points_3_list_item4_list_item7">\t- 7 = 6 points</string>
+    <string name="II_D_1_Points_3_list_item4_list_item8">\t- 8 = 2 points</string>
     <string name="II_D_3_Fautes">Fautes </string>
-    <string name="II_D_3_Fautes_1">Toute faute commise donne la main à l\'adversaire</string>
-    <string name="II_D_3_Fautes_item1">aucune bille touchée = -1 point ;</string>
-    <string name="II_D_3_Fautes_item2">la bille touchée en premier n\'est pas la plus basse = -1 point ;</string>
-    <string name="II_D_3_Fautes_item3">empocher une bille dans les mauvaises conditions = -1 point (et on replace la bille sur la table au niveau du losange) ;</string>
-    <string name="II_D_3_Fautes_item4">bille blanche empochée = -2 points ;</string>
-    <string name="II_D_3_Fautes_item5">sortie de table (bille blanche) = -2 points ;</string>
-    <string name="II_D_3_Fautes_item6">3 fautes consécutives = 10 points pour les adversaires (la manche s\'arrête et le joueur, qui suit celui qui a fait les 3 fautes, commence la manche suivante).</string>
+    <string name="II_D_3_Fautes_1">\tToute faute commise donne la main à l\'adversaire</string>
+    <string name="II_D_3_Fautes_item1">\t- aucune bille touchée = -1 point ;</string>
+    <string name="II_D_3_Fautes_item2">\t- la bille touchée en premier n\'est pas la plus basse = -1 point ;</string>
+    <string name="II_D_3_Fautes_item3">\t- empocher une bille dans les mauvaises conditions = -1 point (et on replace la bille sur la table au niveau du losange) ;</string>
+    <string name="II_D_3_Fautes_item4">\t- bille blanche empochée = -2 points ;</string>
+    <string name="II_D_3_Fautes_item5">\t- sortie de table (bille blanche) = -2 points ;</string>
+    <string name="II_D_3_Fautes_item6">\t- 3 fautes consécutives = 10 points pour les adversaires (la manche s\'arrête et le joueur, qui suit celui qui a fait les 3 fautes, commence la manche suivante).</string>
     <string name="II_D_4_Vainqueur">Vainqueur</string>
-    <string name="II_D_4_Vainqueur_1">Le vainqueur de la partie est le joueur qui, à la fin d\'une manche (après l\'empochage de la 9), a 50 (ou 100) ou plus (avec le plus grand total vis-à-vis de ses adversaires). En cas d\'égalité, c\'est celui qui a le plus de manches gagnantes à son actif.</string>
-    <string name="II_D_4_Vainqueur_2">Remarque : si la difficulté est insurmontable pour certains joueurs, la partie peut être arrêtée après un certain nombre prédéfini de manches et celui qui a le plus grand total de points gagne.</string>
+    <string name="II_D_4_Vainqueur_1">\tLe vainqueur de la partie est le joueur qui, à la fin d\'une manche (après l\'empochage de la 9), a 50 (ou 100) ou plus (avec le plus grand total vis-à-vis de ses adversaires). En cas d\'égalité, c\'est celui qui a le plus de manches gagnantes à son actif.</string>
+    <string name="II_D_4_Vainqueur_2">\tRemarque : si la difficulté est insurmontable pour certains joueurs, la partie peut être arrêtée après un certain nombre prédéfini de manches et celui qui a le plus grand total de points gagne.</string>
 
     <string name="II_E_Le_14_1_continu">Le 14/1 continu</string>
     <string name="II_E_1_But_du_jeu">But du jeu</string>
-    <string name="II_E_1_But_du_jeu_1">Atteindre un nombre de points déterminé à l\'avance, la distance, ou à défaut battre le score de son adversaire au terme du maximum de reprises autorisées.</string>
+    <string name="II_E_1_But_du_jeu_1">\tAtteindre un nombre de points déterminé à l\'avance, la distance, ou à défaut battre le score de son adversaire au terme du maximum de reprises autorisées.</string>
     <string name="II_E_2_Règles">Règles</string>
-    <string name="II_E_2_Règles_1">Les 15 billes sont utilisées.</string>
-    <string name="II_E_2_Règles_2">Chaque bille a la même valeur, soit 1 point.</string>
-    <string name="II_E_2_Règles_3">On peut empocher n\'importe quelle bille, à condition de l\'annoncer, ainsi que la poche (le trou), et ce même à la casse ; toute bille rentrée en plus lors d\'un coup valable comptabilise un point. Si la bille annoncée tombe dans une autre poche que prévu, ou si d\'autre billes sont rentrées mais pas celle annoncée, il n\'y a pas faute, mais les billes en question doivent être remises en jeu.</string>
-    <string name="II_E_2_Règles_4">À chaque empochage un point est gagné, et le joueur continue tant qu\'il empoche les billes annoncées et ne commet pas de faute.</string>
-    <string name="II_E_2_Règles_5">La partie se déroule sur une distance prédéfinie.</string>
-    <string name="II_E_2_Règles_6">Lorsqu\'il ne reste plus qu\'une bille numérotée sur le tapis et que la distance n\'est toujours pas atteinte, les 14 autres sont replacées en triangle à leur point de départ.</string>
-    <string name="II_E_2_Règles_7">Il y a faute si la blanche est empochée ou si aucune bande n\'est touchée après l\'impact. À la casse, la blanche et deux autres billes doivent toucher les bandes pour que le coup soit valide. Une faute fait perdre un point, une faute à la casse deux points. Toute bille empochée durant le tir où la faute a été commise ne rapporte pas de point et est replacée sur le tapis. Lorsqu\'un joueur commet trois fautes consécutives, il est pénalisé de 15 points et les billes sont remises en position de départ, l\'adversaire bénéficiant alors du choix de casser ou non.</string>
+    <string name="II_E_2_Règles_1">\tLes 15 billes sont utilisées.</string>
+    <string name="II_E_2_Règles_2">\tChaque bille a la même valeur, soit 1 point.</string>
+    <string name="II_E_2_Règles_3">\tOn peut empocher n\'importe quelle bille, à condition de l\'annoncer, ainsi que la poche (le trou), et ce même à la casse ; toute bille rentrée en plus lors d\'un coup valable comptabilise un point. Si la bille annoncée tombe dans une autre poche que prévu, ou si d\'autre billes sont rentrées mais pas celle annoncée, il n\'y a pas faute, mais les billes en question doivent être remises en jeu.</string>
+    <string name="II_E_2_Règles_4">\tÀ chaque empochage un point est gagné, et le joueur continue tant qu\'il empoche les billes annoncées et ne commet pas de faute.</string>
+    <string name="II_E_2_Règles_5">\tLa partie se déroule sur une distance prédéfinie.</string>
+    <string name="II_E_2_Règles_6">\tLorsqu\'il ne reste plus qu\'une bille numérotée sur le tapis et que la distance n\'est toujours pas atteinte, les 14 autres sont replacées en triangle à leur point de départ.</string>
+    <string name="II_E_2_Règles_7">\tIl y a faute si la blanche est empochée ou si aucune bande n\'est touchée après l\'impact. À la casse, la blanche et deux autres billes doivent toucher les bandes pour que le coup soit valide. Une faute fait perdre un point, une faute à la casse deux points. Toute bille empochée durant le tir où la faute a été commise ne rapporte pas de point et est replacée sur le tapis. Lorsqu\'un joueur commet trois fautes consécutives, il est pénalisé de 15 points et les billes sont remises en position de départ, l\'adversaire bénéficiant alors du choix de casser ou non.</string>
     <string name="II_E_3_Déroulement_du_jeu">Déroulement du jeu</string>
-    <string name="II_E_3_Déroulement_du_jeu_1">Comme il est obligatoire d\'annoncer les billes même à la casse, une partie de 14/1 commence traditionnellement par un coup de défense similaire à celui du snooker : la blanche est envoyée choquer la pointe droite ou gauche du triangle, libérant ainsi au minimum les billes puis va toucher deux, souvent trois, bandes et revient vers son point de départ, au plus près de la bande du haut pour ne pas laisser de coup aisé à l\'adversaire. </string>
-    <string name="II_E_3_Déroulement_du_jeu_2">Lorsqu\'il ne reste plus qu\'une bille sur la table, celle-ci et la blanche restent à leur place, sauf cas spécial. Les 14 autres billes sont replacées en triangle, la bille de tête manquante. Le joueur doit alors chercher à empocher la bille libre tout en envoyant la blanche dans le triangle pour libérer les billes et continuer sur sa lancée, ou effectuer un coup de défense.</string>
+    <string name="II_E_3_Déroulement_du_jeu_1">\tComme il est obligatoire d\'annoncer les billes même à la casse, une partie de 14/1 commence traditionnellement par un coup de défense similaire à celui du snooker : la blanche est envoyée choquer la pointe droite ou gauche du triangle, libérant ainsi au minimum les billes puis va toucher deux, souvent trois, bandes et revient vers son point de départ, au plus près de la bande du haut pour ne pas laisser de coup aisé à l\'adversaire. </string>
+    <string name="II_E_3_Déroulement_du_jeu_2">\tLorsqu\'il ne reste plus qu\'une bille sur la table, celle-ci et la blanche restent à leur place, sauf cas spécial. Les 14 autres billes sont replacées en triangle, la bille de tête manquante. Le joueur doit alors chercher à empocher la bille libre tout en envoyant la blanche dans le triangle pour libérer les billes et continuer sur sa lancée, ou effectuer un coup de défense.</string>
 
     <string name="III_Billard_francais">Billard français</string>
     <string name="III_1_Introduction">L’arbitre dirige seul la partie, à l’exclusion de toute autre personne. Les joueurs ont, exceptionnellement, le droit d’intervenir lorsqu’il s’agit d’une question d’application des règlements. L’arbitre doit veiller à ce qu’aucune intervention non justifiée ne se manifeste.</string>
