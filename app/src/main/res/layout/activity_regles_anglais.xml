@@ -72,6 +72,7 @@
         android:textSize="35dp"/>
 
     <ScrollView
+        android:id="@+id/layout_general_anglais"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"

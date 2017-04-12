@@ -40,7 +40,6 @@ public class ReglesAmericain extends AppCompatActivity {
 
     Vector<TextView> array = new Vector<TextView>();
     final static float STEP = 200;
-    TextView mytv;
     float mRatio = 1.0f;
     int mBaseDist;
     float mBaseRatio;
@@ -56,8 +55,6 @@ public class ReglesAmericain extends AppCompatActivity {
                 findAllTextViews((ViewGroup) view);
             else if (view instanceof TextView) {
                 TextView edittext = (TextView) view;
-                //  System.out.println("coucou");
-                //  System.out.println(edittext.getText());
                 array.add(edittext);
             }
         }
