@@ -97,7 +97,7 @@ public class ReglesAmericain extends AppCompatActivity {
                     }
 
                 }
-                return true;
+                return false;
             }
         });
 
