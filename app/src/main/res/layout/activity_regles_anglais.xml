@@ -276,8 +276,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="18dp"
                     android:textColor="#ffffff"
-                    android:text="@string/I_A_3_Choix_des_couleurs_4_list_item3"
-                    android:layout_marginLeft="20dp"/>
+                    android:text="@string/I_A_3_Choix_des_couleurs_4_list_item3" />
             </LinearLayout>
 
             <Button
@@ -341,32 +340,51 @@
                     android:textSize="18dp"
                     android:textColor="#ffffff"
                     android:text="@string/I_A_4_Tir_reglementaire_6_list" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/magic_btn_snook_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/I_A_5_Etat_Snook"/>
+            <LinearLayout
+                android:id="@+id/magic_layout_snook_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18dp"
                     android:textColor="#ffffff"
-                    android:text="@string/I_A_4_Tir_reglementaire_6_list_item1"
+                    android:text="@string/I_A_5_Etat_Snook_list"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/I_A_5_Etat_Snook_list_item1"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18dp"
                     android:textColor="#ffffff"
-                    android:text="@string/I_A_4_Tir_reglementaire_6_list_item2"
+                    android:text="@string/I_A_5_Etat_Snook_list_item2"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18dp"
                     android:textColor="#ffffff"
-                    android:text="@string/I_A_4_Tir_reglementaire_7" />
+                    android:text="@string/I_A_5_Etat_Snook_2"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18dp"
                     android:textColor="#ffffff"
-                    android:text="@string/I_A_4_Tir_reglementaire_7" />
+                    android:text="@string/I_A_5_Etat_Snook_3"/>
             </LinearLayout>
 
             <Button
@@ -697,14 +715,14 @@
                         android:textSize="18dp"
                         android:textColor="#ffffff"
                         android:text="@string/I_A_8_Fautes_non_standart_2_list_item7"
-                        android:layout_marginLeft="20dp"/>
+                        android:layout_marginLeft="40dp"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
                         android:textColor="#ffffff"
                         android:text="@string/I_A_8_Fautes_non_standart_2_list_item8"
-                        android:layout_marginLeft="20dp"/>
+                        android:layout_marginLeft="40dp"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -747,6 +765,12 @@
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
                         android:textColor="#ffffff"
+                        android:text="@string/I_A_9_Fautes_snooker_2_list"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="#ffffff"
                         android:text="@string/I_A_9_Fautes_snooker_2_list_item1"
                         android:layout_marginLeft="20dp"/>
                     <TextView
@@ -756,12 +780,6 @@
                         android:textColor="#ffffff"
                         android:text="@string/I_A_9_Fautes_snooker_2_list_item2"
                         android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/I_A_9_Fautes_snooker_3"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -1059,7 +1077,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="18dp"
                     android:textColor="#ffffff"
-                    android:text="@string/I_A_13_Aide_1"/>
+                    android:text="@string/I_A_13_Aide_2"/>
             </LinearLayout>
 
 

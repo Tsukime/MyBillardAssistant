@@ -145,8 +145,34 @@ public class ReglesAnglais extends AppCompatActivity {
             }
         });
 
-        Button findMagicBtn6 = (Button) findViewById(R.id.magic_btn_snook_total);
+        Button findMagicBtn6 = (Button) findViewById(R.id.magic_btn_snook_state);
         findMagicBtn6.setOnClickListener(new View.OnClickListener() {
+            boolean animationClosing = false;
+            @Override
+            public void onClick(View v) {
+                if (!animationClosing){
+                    final LinearLayout findMagicLl = (LinearLayout) findViewById(R.id.magic_layout_snook_state);
+                    if (findMagicLl.getVisibility() == View.VISIBLE) {
+                        animationClosing = true;
+                        findMagicLl.animate().alpha(0f).setDuration(200).withEndAction(new Runnable() {
+                            @Override
+                            public void run() {
+                                findMagicLl.setVisibility(View.GONE);
+                                animationClosing = false;
+                            }
+                        }).start();
+                    } else {
+
+                        findMagicLl.setVisibility(View.VISIBLE);
+                        findMagicLl.setAlpha(1f);
+                    }
+                }
+
+            }
+        });
+
+        Button findMagicBtn7first = (Button) findViewById(R.id.magic_btn_snook_total);
+        findMagicBtn7first.setOnClickListener(new View.OnClickListener() {
             boolean animationClosing = false;
             @Override
             public void onClick(View v) {
