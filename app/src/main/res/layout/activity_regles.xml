@@ -1,11 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/fond_rules"
-    tools:context="com.incoherentglitch.mybillardassistant.Regles">
+    android:background="#007300"
+    tools:context="com.incoherentglitch.mybillardassistant.Regles"
+    >
+
+    <RelativeLayout
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="#730000">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#730000">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#730000">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="#730000">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cercles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/accepter"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/accepter"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/accepter"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/accepter"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Règles"
+        android:textColor="#DDD96E"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="35dp"/>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -31,7 +96,6 @@
             android:layout_alignParentStart="true" />
 
         <ImageButton
-            app:srcCompat="@android:drawable/title_bar"
             android:id="@+id/bouton_billardFrancais"
             android:src="@drawable/drapeau_francais_bord"
             android:layout_width="150dp"
@@ -43,7 +107,6 @@
             android:layout_marginStart="30dp" />
 
         <ImageButton
-            app:srcCompat="@android:drawable/title_bar"
             android:id="@+id/bouton_poolAnglais"
             android:src="@drawable/drapeau_united_kingdom_bord"
             android:layout_width="150dp"
@@ -53,7 +116,6 @@
             android:layout_alignStart="@+id/bouton_billardFrancais" />
 
         <ImageButton
-            app:srcCompat="@android:drawable/title_bar"
             android:id="@+id/bouton_snooker"
             android:src="@drawable/drapeau_india_bord"
             android:layout_width="150dp"
@@ -64,7 +126,6 @@
             android:layout_marginTop="40dp" />
 
         <ImageButton
-            app:srcCompat="@android:drawable/title_bar"
             android:id="@+id/bouton_billardAmericain"
             android:src="@drawable/drapeau_america_bord"
             android:layout_width="150dp"

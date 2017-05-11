@@ -120,21 +120,16 @@ public class Scores extends Activity {
 
         //tableRowParams.setMargins(5, 0, 5, 0); //left top right bottom
 
-        View ligneHorizontale1 = new View(this);
-        ligneHorizontale1.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.FILL_PARENT, 1));
-        ligneHorizontale1.setBackgroundColor(Color.rgb(51, 51, 51));
-        View ligneHorizontale2 = new View(this);
-        ligneHorizontale2.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.FILL_PARENT, 1));
-        ligneHorizontale2.setBackgroundColor(Color.rgb(51, 51, 51));
+
 
         View ligneVerticale1 = new View(this);
-        ligneVerticale1.setLayoutParams(new TableRow.LayoutParams(1, TableRow.LayoutParams.FILL_PARENT));
+        ligneVerticale1.setLayoutParams(new TableRow.LayoutParams(2, TableRow.LayoutParams.MATCH_PARENT));
         ligneVerticale1.setBackgroundColor(Color.rgb(51, 51, 51));
         View ligneVerticale2 = new View(this);
-        ligneVerticale2.setLayoutParams(new TableRow.LayoutParams(1, TableRow.LayoutParams.FILL_PARENT));
+        ligneVerticale2.setLayoutParams(new TableRow.LayoutParams(2, TableRow.LayoutParams.MATCH_PARENT));
         ligneVerticale2.setBackgroundColor(Color.rgb(51, 51, 51));
         View ligneVerticale3 = new View(this);
-        ligneVerticale3.setLayoutParams(new TableRow.LayoutParams(1, TableRow.LayoutParams.FILL_PARENT));
+        ligneVerticale3.setLayoutParams(new TableRow.LayoutParams(2, TableRow.LayoutParams.MATCH_PARENT));
         ligneVerticale3.setBackgroundColor(Color.rgb(51, 51, 51));
 
         TextView nom = new TextView(Scores.this);
@@ -166,7 +161,16 @@ public class Scores extends Activity {
         tr.addView(edit);
         tr.addView(suppr);
 
+        View ligneHorizontale1 = new View(this);
+        ligneHorizontale1.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, 2));
+        ligneHorizontale1.setBackgroundColor(Color.rgb(51, 51, 51));
+        ligneHorizontale1.getMeasuredWidth();
+        View ligneHorizontale2 = new View(this);
+        ligneHorizontale2.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, 2));
+        ligneHorizontale2.setBackgroundColor(Color.rgb(51, 51, 51));
+
         tl.addView(ligneHorizontale1);
+      //  tl.addView(ligneHorizontale1, new TableLayout.LayoutParams(tr.getMeasuredWidth(), 2));
         tl.addView(tr, tableRowParams);
         tl.addView(ligneHorizontale2);
     }
