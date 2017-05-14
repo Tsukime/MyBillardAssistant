@@ -87,6 +87,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bouton_regles"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:width="550px"
             />
 
         <Button
@@ -95,6 +98,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/bouton_regles"
             android:text="@string/bouton_scores"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:width="550px"
             />
 
         <Button
@@ -103,6 +109,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/bouton_scores"
             android:text="@string/bouton_conseils"
+            android:textSize="50px"
+            android:textStyle="bold"
+            android:width="550px"
             />
 
     </RelativeLayout>
@@ -123,8 +132,8 @@
         <ImageView
             android:id="@+id/bouton_compte"
             android:src="@drawable/compte_bord"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:padding="0dip"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
@@ -133,13 +142,14 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginLeft="11dp"
-            android:layout_marginStart="11dp" />
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="6px"/>
 
         <ImageView
             android:id="@+id/bouton_options"
             android:src="@drawable/option_bord"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:padding="0dip"
             android:adjustViewBounds="true"
             android:scaleType="fitXY"
@@ -150,6 +160,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
             android:layout_marginRight="11dp"
-            android:layout_marginEnd="11dp" />
+            android:layout_marginEnd="11dp"
+            android:layout_marginTop="6px"/>
     </RelativeLayout>
 </RelativeLayout>

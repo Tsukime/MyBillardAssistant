@@ -71,8 +71,9 @@
         android:textStyle="bold"
         android:typeface="serif"
         android:textSize="35dp"/>
-
+    <!--afichage-->
     <ScrollView
+        android:id="@+id/layout_general"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -85,462 +86,265 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="vertical">
-
+            <!--button 1-->
             <Button
-                android:id="@+id/magic_btn_generales"
+                android:id="@+id/Introduction"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/II_A_Regles_communes_americain"/>
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Introduction"/>
             <LinearLayout
-                android:id="@+id/magic_layout_generales"
+                android:id="@+id/Intro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:orientation="vertical"
                 android:visibility="gone">
-
-                <Button
-                    android:id="@+id/magic_btn_generales_debut"
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="Début du jeu"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_generales_debut"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_1_Introduction_1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_1_Introduction_1" />
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/magic_btn_americain_generales_fautes"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_A_2_Fautes"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_americain_generales_fautes"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_2_list"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_2_list_item1"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_2_list_item2"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_2_list_item3"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_2_list_item4"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_2_list_item5"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_2_list_item6"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_2_list_item7"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_2_list_item8"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_2_list_item9"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_3_1" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_A_2_Fautes_3_2"
-                        android:layout_marginLeft="20dp"/>
-                </LinearLayout>
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_1_Introduction"/>
             </LinearLayout>
 
+    <!--button 2-->
             <Button
-                android:id="@+id/magic_btn_jeu_8"
+                android:id="@+id/DebutPartie"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/II_B_Jeu_de_la_8"/>
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_2_Debut_de_la_partie"/>
             <LinearLayout
-                android:id="@+id/magic_layout_jeu_8"
+                android:id="@+id/DebutPartieContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:orientation="vertical"
                 android:visibility="gone">
-
-                <Button
-                    android:id="@+id/magic_btn_8_intro"
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="Introduction"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_8_intro"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_2_Debut_de_la_partie_1"/>
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_1_Introduction_1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_1_Introduction_2" />
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/magic_btn_americain_8_regles"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_2_Debut_de_la_partie_2"/>
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_B_2_Regles"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_americain_8_regles"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_2_Debut_de_la_partie_3"/>
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_1_1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/II_B_2_Regles_1_2"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_2_list" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_2_list_item1"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_2_list_item2"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_3_1" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_3_2"
-                        android:layout_marginLeft="20dp"/>
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/magic_btn_americain_8_fautes"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_2_Debut_de_la_partie_4"/>
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_B_2_Regles_4_list"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_americain_8_fautes"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_2_Debut_de_la_partie_5"/>
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_4_list_item1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_4_list_item2" />
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/magic_btn_americain_8_noire"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_B_2_Regles_5_list"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_americain_8_noire"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_5_list_item1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_5_list_item2" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_5_list_item3" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_B_2_Regles_5_list_item4" />
-                </LinearLayout>
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_2_Debut_de_la_partie_6"/>
             </LinearLayout>
-
+    <!--button 3-->
+        <Button
+            android:id="@+id/PosiDepart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/III_3_Position_de_depart"/>
+        <LinearLayout
+            android:id="@+id/PosiDepartContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:text="@string/III_3_Position_de_depart_1_list"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:text="@string/III_3_Position_de_depart_1_list_item1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:text="@string/III_3_Position_de_depart_1_list_item2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:text="@string/III_3_Position_de_depart_1_list_item3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:text="@string/III_3_Position_de_depart_2"/>
+            </LinearLayout>
+    <!--button 4-->
             <Button
-                android:id="@+id/magic_btn_jeu_9"
+                android:id="@+id/Interruption"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/II_C_Jeu_de_la_9"/>
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_4_Interruption"/>
             <LinearLayout
-                android:id="@+id/magic_layout_jeu_9"
+                android:id="@+id/InterruptionContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:orientation="vertical"
                 android:visibility="gone">
-
-                <Button
-                    android:id="@+id/magic_btn_9_intro"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_C_1_But_du_jeu"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_9_intro"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_C_1_But_du_jeu_1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_C_1_But_du_jeu_2" />
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/magic_btn_americain_9_deroulement"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_C_2_Deroulement"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_americain_9_deroulement"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_C_2_Deroulement_1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_C_2_Deroulement_2" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_C_2_Deroulement_3" />
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/magic_btn_americain_9_fautes"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_C_3_Fautes"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_americain_9_fautes"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_C_3_Fautes_item1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_C_3_Fautes_item2" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_C_3_Fautes_item3" />
-                </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:text="@string/III_4_Interruption_1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:text="@string/III_4_Interruption_2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:text="@string/III_4_Interruption_3"/>
             </LinearLayout>
 
+<!--button 5-->
             <Button
-                android:id="@+id/magic_btn_jeu_9_continu"
+                android:id="@+id/BilleContact"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/II_D_Jeu_de_la_9_continue"/>
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_5_Bille_en_contact"/>
             <LinearLayout
-                android:id="@+id/magic_layout_jeu_9_continu"
+                android:id="@+id/BilleContactContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:orientation="vertical"
                 android:visibility="gone">
-
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_5_Bille_en_contact_1_list"/>
                 <Button
-                    android:id="@+id/magic_btn_9_continu_intro"
+                    android:id="@+id/BilleContact1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:text="Introduction"/>
+                    android:text="@string/III_5_Bille_en_contact_1_list_item1_list"/>
                 <LinearLayout
-                    android:id="@+id/magic_layout_9_continu_intro"
+                    android:id="@+id/BilleContactContent1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_5_Bille_en_contact_1_list_item1_list_item1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:textColor="#ffffff"
+                        android:text="@string/III_5_Bille_en_contact_1_list_item1_list_item2"/>
+                    </LinearLayout>
+                    <Button
+                        android:id="@+id/BilleContact2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/III_5_Bille_en_contact_1_list_item2"/>
+                    <LinearLayout
+                    android:id="@+id/BilleContactContent2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="#ffffff"
+                            android:text="@string/III_5_Bille_en_contact_1_list_item2_list"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="#ffffff"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/III_5_Bille_en_contact_1_list_item2_list_item1"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18dp"
+                            android:textColor="#ffffff"
+                            android:layout_marginLeft="20dp"
+                            android:text="@string/III_5_Bille_en_contact_1_list_item2_list_item2"/>
+                    </LinearLayout>
+                <Button
+                    android:id="@+id/BilleContact3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/III_5_Bille_en_contact_1_list_item3"/>
+                <LinearLayout
+                    android:id="@+id/BilleContactContent3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -552,18 +356,17 @@
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
                         android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Introduction_1"/>
-                </LinearLayout>
-
+                        android:text="@string/III_5_Bille_en_contact_1_list_item3_1"/>
+                    </LinearLayout>
                 <Button
-                    android:id="@+id/magic_btn_americain_9_continu_points"
+                    android:id="@+id/BilleContact4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:text="@string/II_D_2_Points"/>
+                    android:text="@string/III_5_Bille_en_contact_1_list_item4"/>
                 <LinearLayout
-                    android:id="@+id/magic_layout_americain_9_continu_points"
+                    android:id="@+id/BilleContactContent4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -575,334 +378,657 @@
                         android:layout_height="wrap_content"
                         android:textSize="18dp"
                         android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_2_Points_2" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item1"
-                        android:layout_marginLeft="40dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item2"
-                        android:layout_marginLeft="40dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item3"
-                        android:layout_marginLeft="40dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item4_list"
-                        android:layout_marginLeft="40dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item4_list_item1"
-                        android:layout_marginLeft="60dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item4_list_item2"
-                        android:layout_marginLeft="60dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item4_list_item3"
-                        android:layout_marginLeft="60dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item4_list_item4"
-                        android:layout_marginLeft="60dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item4_list_item5"
-                        android:layout_marginLeft="60dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item4_list_item6"
-                        android:layout_marginLeft="60dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item4_list_item7"
-                        android:layout_marginLeft="60dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_1_Points_3_list_item4_list_item8"
-                        android:layout_marginLeft="60dp"/>
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/magic_btn_americain_9_continu_fautes"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_D_3_Fautes"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_americain_9_continu_fautes"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_3_Fautes_1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_3_Fautes_item1"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_3_Fautes_item2"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_3_Fautes_item3"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_3_Fautes_item4"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_3_Fautes_item5"
-                        android:layout_marginLeft="20dp"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_3_Fautes_item6"
-                        android:layout_marginLeft="20dp"/>
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/magic_btn_americain_9_continu_vainqueur"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_D_4_Vainqueur"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_americain_9_continu_vainqueur"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_4_Vainqueur_1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_D_4_Vainqueur_2" />
+                        android:text="@string/III_5_Bille_en_contact_1_list_item4_1"/>
                 </LinearLayout>
             </LinearLayout>
-
+<!--button 6-->
             <Button
-                android:id="@+id/magic_btn_jeu_14_1"
+                android:id="@+id/BilleHors"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/II_E_Le_14_1_continu"/>
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_6_Billes_sautant_hors_billard"/>
             <LinearLayout
-                android:id="@+id/magic_layout_jeu_14_1"
+                android:id="@+id/BilleHorsContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:orientation="vertical"
                 android:visibility="gone">
-
-                <Button
-                    android:id="@+id/magic_btn_14_but"
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_E_1_But_du_jeu"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_14_but"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_6_Billes_sautant_hors_billard_1_list"/>
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_E_1_But_du_jeu_1"/>
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/magic_btn_americain_14_regles"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_6_Billes_sautant_hors_billard_1_list_item1"/>
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_E_2_Règles"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_americain_14_regles"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_E_2_Règles_1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_E_2_Règles_2" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_E_2_Règles_3" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_E_2_Règles_4" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_E_2_Règles_5" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_E_2_Règles_6" />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_E_2_Règles_7" />
-                </LinearLayout>
-
-                <Button
-                    android:id="@+id/magic_btn_americain_14_deroulement"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="@string/II_E_3_Déroulement_du_jeu"/>
-                <LinearLayout
-                    android:id="@+id/magic_layout_americain_14_deroulement"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:orientation="vertical"
-                    android:visibility="gone">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_E_3_Déroulement_du_jeu_1"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="18dp"
-                        android:textColor="#ffffff"
-                        android:text="@string/II_E_3_Déroulement_du_jeu_2" />
-                </LinearLayout>
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_6_Billes_sautant_hors_billard_1_list_item2"/>
             </LinearLayout>
+<!--Button 7-->
+            <Button
+                android:id="@+id/Queue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_7_La_queue"/>
+            <LinearLayout
+                android:id="@+id/QueueContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_7_La_queue_1"/>
+            </LinearLayout>
+<!--Button 8-->
+            <Button
+                android:id="@+id/Faute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_8_Fautes"/>
+            <LinearLayout
+                android:id="@+id/FauteContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_8_Fautes_1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_8_Fautes_2_list"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_8_Fautes_2_list_item1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_8_Fautes_2_list_item2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_8_Fautes_2_list_item3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_8_Fautes_2_list_item4"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_8_Fautes_2_list_item5"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_8_Fautes_2_list_item6"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_8_Fautes_2_list_item7"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_8_Fautes_2_list_item8"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_8_Fautes_2_list_item9"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_8_Fautes_2_list_item10"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_8_Fautes_3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_8_Fautes_4"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_8_Fautes_5"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_8_Fautes_6"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_8_Fautes_7"/>
+            </LinearLayout>
+<!--Button 9-->
+            <Button
+                android:id="@+id/Annonce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_9_Annonces_de_arbitre"/>
+            <LinearLayout
+                android:id="@+id/AnnonceContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_9_Annonces_de_arbitre_1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_9_Annonces_de_arbitre_2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_9_Annonces_de_arbitre_3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_9_Annonces_de_arbitre_4_list"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_9_Annonces_de_arbitre_4_list_item1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_9_Annonces_de_arbitre_4_list_item2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_9_Annonces_de_arbitre_4_list_item3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_9_Annonces_de_arbitre_4_list_item4"/>
+            </LinearLayout>
+<!--button 10-->
+            <Button
+                android:id="@+id/ManipBille"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_10_Manipulation_des_billes"/>
+            <LinearLayout
+                android:id="@+id/ManipBilleContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_10_Manipulation_des_billes_1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_10_Manipulation_des_billes_2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_10_Manipulation_des_billes_3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_10_Manipulation_des_billes_4"/>
+            </LinearLayout>
+<!--Button 11-->
+            <Button
+                android:id="@+id/Feuille"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_11_Feuille_de_marque"/>
+            <LinearLayout
+                android:id="@+id/FeuilleContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_11_Feuille_de_marque_1"/>
+            </LinearLayout>
+
+            <!--button 12-->
+            <Button
+                android:id="@+id/PassageMain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_12_Passage_de_la_main"/>
+            <LinearLayout
+                android:id="@+id/PassageMainContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_12_Passage_de_la_main_1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_12_Passage_de_la_main_2"/>
+            </LinearLayout>
+<!--Button 13-->
+        <Button
+            android:id="@+id/Nettoyagge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/III_13_Nettoyage"/>
+        <LinearLayout
+            android:id="@+id/NettoyageContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#ffffff"
+                android:text="@string/III_13_Nettoyage_1"/>
+            </LinearLayout>
+<!--button 14-->
+            <Button
+                android:id="@+id/Information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_14_Informations"/>
+            <LinearLayout
+                android:id="@+id/InformationContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_14_Informations_1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_14_Informations_2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_14_Informations_3"/>
+            </LinearLayout>
+
+<!--button 15-->
+            <Button
+                android:id="@+id/Littige"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_4_Interruption"/>
+            <LinearLayout
+                android:id="@+id/LittigeContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_15_Litiges_1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_15_Litiges_2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_15_Litiges_3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_15_Litiges_4_list"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_15_Litiges_4_list_item1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_15_Litiges_4_list_item2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_15_Litiges_4_list_item3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/III_15_Litiges_4_list_item4"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_15_Litiges_4_suite"/>
+            </LinearLayout>
+<!--button 16-->
+            <Button
+                android:id="@+id/Reclamation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_16_Reclamations"/>
+            <LinearLayout
+                android:id="@+id/ReclamationContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_16_Reclamations_1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_16_Reclamations_2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_16_Reclamations_3"/>
+            </LinearLayout>
+<!--Button 17-->
+            <Button
+                android:id="@+id/Fin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_17_Annonce_fin_partie"/>
+            <LinearLayout
+                android:id="@+id/FinContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_17_Annonce_fin_partie_1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_17_Annonce_fin_partie_2"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_17_Annonce_fin_partie_3"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_17_Annonce_fin_partie_4"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_17_Annonce_fin_partie_5"/>
+            </LinearLayout>
+<!--button 18-->
+            <Button
+                android:id="@+id/Attitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_18_Attitude_des_joueurs"/>
+            <LinearLayout
+                android:id="@+id/AttitudeContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_18_Attitude_des_joueurs_1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_18_Attitude_des_joueurs_2"/>
+            </LinearLayout>
+            <!--button 19-->
+            <Button
+                android:id="@+id/Cas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/III_19_Cas_exceptionnels"/>
+            <LinearLayout
+                android:id="@+id/CasContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="@string/III_19_Cas_exceptionnels_1"/>
+
+            </LinearLayout>
+
 
 
         </LinearLayout>
-
     </ScrollView>
 
 </RelativeLayout>
+
+
+<!--
+<Button
+android:id="@+id/"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+android:text="@string/III_"/>
+<LinearLayout
+android:id="@+id/Content"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+android:orientation="vertical"
+android:visibility="gone">
+
+</LinearLayout>
+
+android:layout_marginLeft="20dp"
+-->

@@ -34,13 +34,5 @@ public class Login extends AppCompatActivity {
             }
         );
 
-        final ImageButton ireturn = (ImageButton) findViewById(R.id.iReturn);
-        ireturn.setOnClickListener(new View.OnClickListener() { //appelle les instruction dans OnClick ci-dessus quand cliqué
-                                       public void onClick(View v) {
-                                           Intent registerIntent = new Intent(Login.this, Menu.class);
-                                           Login.this.startActivity(registerIntent);   //ouvre une activité
-                                       }
-                                   }
-        );
     }
 }

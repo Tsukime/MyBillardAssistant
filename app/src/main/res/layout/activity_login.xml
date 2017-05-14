@@ -89,7 +89,8 @@
             android:id="@+id/etPassword"
             android:hint="Password"
             android:background="#ffffff"
-            android:layout_below="@+id/etUsername" />
+            android:layout_below="@+id/etUsername"
+            android:padding="10px"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -100,7 +101,8 @@
             android:hint="Username"
             android:background="#ffffff"
             android:layout_marginTop="15dp"
-            android:layout_below="@+id/iReturn" />
+            android:layout_below="@+id/iReturn"
+            android:padding="10px"/>/>
 
         <Button
             android:text="LOGIN"

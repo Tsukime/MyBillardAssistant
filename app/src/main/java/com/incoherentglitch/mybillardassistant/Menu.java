@@ -39,7 +39,7 @@ public class Menu extends AppCompatActivity {
             }
             if(v.getId()==R.id.bouton_compte)
             {
-                activityTwo = new Intent(Menu.this, UserArea.class);
+                activityTwo = new Intent(Menu.this, Login.class);
                 startActivity(activityTwo);
             }
             if(v.getId()==R.id.bouton_options)

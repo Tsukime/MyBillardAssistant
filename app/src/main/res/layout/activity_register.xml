@@ -95,7 +95,10 @@
             android:ems="10"
             android:layout_below="@+id/etName"
             android:id="@+id/etUsername"
-            android:hint="Username" />
+            android:hint="Username"
+            android:background="#FFFFFF"
+            android:padding="15px"
+            android:layout_marginTop="20px"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -104,7 +107,10 @@
             android:ems="10"
             android:id="@+id/etPassword"
             android:layout_below="@+id/etUsername"
-            android:hint="Password" />
+            android:hint="Password"
+            android:background="#FFFFFF"
+            android:layout_marginTop="20px"
+            android:padding="15px"/>
 
         <Button
             android:text="Register"

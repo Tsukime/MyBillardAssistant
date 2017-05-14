@@ -222,24 +222,26 @@
     <string name="I_B_1_Description_3">Les points sont attribués pour les coups gagnant et des forfaits sanctionnent les fautes de l’adversaire.</string>
     <string name="I_B_1_Description_4">Le gagnant est le joueur ou l’équipe faisant le score le plus élevé ou a qui le jeu est attribué.</string>
     <string name="I_B_1_Description_5_list">Chaque joueur emploie la même bille blanche de choc et il y a 21 billes objets :</string>
-    <string name="I_B_1_Description_5_list_item1">15 billes rouges valant chacune 1 point,</string>
-    <string name="I_B_1_Description_5_list_item2">1 bille jaune valant 2 points,</string>
-    <string name="I_B_1_Description_5_list_item3">1 bille verte valant 3 points,</string>
-    <string name="I_B_1_Description_5_list_item4">1 bille marron valant 4 points,</string>
-    <string name="I_B_1_Description_5_list_item5">1 bille bleu valant 5 points,</string>
-    <string name="I_B_1_Description_5_list_item6">1 bille rose valant 6 points,</string>
-    <string name="I_B_1_Description_5_list_item7">1 bille noire valant 7 points,</string>
+    <string name="I_B_1_Description_5_list_item1">-15 billes rouges valant chacune 1 point,</string>
+    <string name="I_B_1_Description_5_list_item2">-1 bille jaune valant 2 points,</string>
+    <string name="I_B_1_Description_5_list_item3">-1 bille verte valant 3 points,</string>
+    <string name="I_B_1_Description_5_list_item4">-1 bille marron valant 4 points,</string>
+    <string name="I_B_1_Description_5_list_item5">-1 bille bleu valant 5 points,</string>
+    <string name="I_B_1_Description_5_list_item6">-1 bille rose valant 6 points,</string>
+    <string name="I_B_1_Description_5_list_item7">-1 bille noire valant 7 points,</string>
     <string name="I_B_1_Description_6">Les coups gagnants sont obtenus par blousage alternatif de billes rouges et de couleurs jusqu’à ce qu’il ne reste plus de rouge. Alors les billes de couleurs sont blousées dans l’ordre croissant des points (de la jaune à la noire).</string>
+
     <string name="I_B_2_Positionnement_des_billes">Positionnement des billes</string>
     <string name="I_B_2_Positionnement_des_billes_1_list">Au commencement de chaque manche, les billes objets sont positionnées comme suit :</string>
-    <string name="I_B_2_Positionnement_des_billes_1_list_item1">la bille noire sur la mouche,</string>
-    <string name="I_B_2_Positionnement_des_billes_1_list_item2">la bille rose sur la mouche du triangle,</string>
-    <string name="I_B_2_Positionnement_des_billes_1_list_item3">la bille bleue sur la mouche centrale,</string>
-    <string name="I_B_2_Positionnement_des_billes_1_list_item4">la bille marron au milieu de la ligne de départ,</string>
-    <string name="I_B_2_Positionnement_des_billes_1_list_item5">la bille verte à gauche de la marron à l’intersection du « D » et de la ligne de départ,</string>
-    <string name="I_B_2_Positionnement_des_billes_1_list_item6">la bille jaune à droite de la marron à l’intersection du « D » et de la ligne de départ,</string>
+    <string name="I_B_2_Positionnement_des_billes_1_list_item1">-la bille noire sur la mouche,</string>
+    <string name="I_B_2_Positionnement_des_billes_1_list_item2">-la bille rose sur la mouche du triangle,</string>
+    <string name="I_B_2_Positionnement_des_billes_1_list_item3">-la bille bleue sur la mouche centrale,</string>
+    <string name="I_B_2_Positionnement_des_billes_1_list_item4">-la bille marron au milieu de la ligne de départ,</string>
+    <string name="I_B_2_Positionnement_des_billes_1_list_item5">-la bille verte à gauche de la marron à l’intersection du « D » et de la ligne de départ,</string>
+    <string name="I_B_2_Positionnement_des_billes_1_list_item6">-la bille jaune à droite de la marron à l’intersection du « D » et de la ligne de départ,</string>
     <string name="I_B_2_Positionnement_des_billes_2">Les rouges forment un triangle ; la bille du sommet est placée aussi près que possible de la bille rose sans toutefois la toucher, la base doit être du coté de la bande supérieure et parallèle à celle-ci.</string>
     <string name="I_B_2_Positionnement_des_billes_3">Note : Les mouches des billes objets sont communément nommées par la couleur de la bille qu’elle représente. Par exemple : la mouche de la noire …</string>
+
     <string name="I_B_3_Principe">Principe du jeu</string>
     <string name="I_B_3_Principe_1">Les joueurs détermineront l’ordre de jeu qui devra rester inchangé tout au long de la manche.</string>
     <string name="I_B_3_Principe_2">Le premier joueur fera la mise en jeu et la manche commencera par le premier coup.</string>
@@ -252,10 +254,10 @@
     <string name="I_B_3_Principe_9">Si le joueur actif ne fait pas le point, le joueur suivant jouera de l’endroit ou la bille de choc s’est arrêté (sauf cas de l’angle-ball suite à une faute).</string>
     <string name="I_B_3_Principe_10">Les couleurs deviennent ensuite billes « ON » dans l’ordre croissant de leur valeur (jaune, verte, brune, bleu, rose et noire). Une fois blousée, elles restent hors de la table (sauf cas prévu dans le paragraphe suivant).</string>
     <string name="I_B_3_Principe_11_list">Quand seule la noire reste, les premiers points gagnants ou perdants terminent la manche, à moins que les scores soient alors égaux, auquel cas :</string>
-    <string name="I_B_3_Principe_11_list_item1">la noire est remise sur sa mouche,</string>
-    <string name="I_B_3_Principe_11_list_item2">les joueurs tirent au sort pour le choix du jeu,</string>
-    <string name="I_B_3_Principe_11_list_item3">le joueur suivant fera la remise en jeu depuis le « D », et</string>
-    <string name="I_B_3_Principe_11_list_item4">les points gagnants ou perdants terminent la manche.</string>
+    <string name="I_B_3_Principe_11_list_item1">-la noire est remise sur sa mouche,</string>
+    <string name="I_B_3_Principe_11_list_item2">-les joueurs tirent au sort pour le choix du jeu,</string>
+    <string name="I_B_3_Principe_11_list_item3">-le joueur suivant fera la remise en jeu depuis le « D », et</string>
+    <string name="I_B_3_Principe_11_list_item4">-les points gagnants ou perdants terminent la manche.</string>
     <string name="I_B_3_Principe_12">Les « points perdants » signifie qu’une faute est commise.</string>
     <string name="I_B_3_Principe_13">Note : Totalisation des points : dans les jeux ou matches où le total des points est pris en compte, la règle ci-dessus ne s’applique que si les scores sont égaux au terme de la dernière manche.</string>
     <string name="I_B_3_Principe_14_list">Le joueur doit faire de son mieux pour tenter de toucher la bille « ON ». Si l’arbitre considère que la règle est transgressée, il :</string>
@@ -263,84 +265,95 @@
     <string name="I_B_3_Principe_14_list_item2">jugera de la pénalité au profit du non fautif</string>
     <string name="I_B_3_Principe_14_list_item3">demandera à l’adversaire s’il désire que l’on replace les billes et faire rejouer le joueur fautif.</string>
     <string name="I_B_3_Principe_15">Note : Si la bille « ON » est impossible à toucher. Dans cette situation, il doit être considéré que le joueur est tenu de tenter de toucher la bille « ON ».</string>
+
     <string name="I_B_4_Faire_mise_remise_en_jeu">Faire la mise ou la remise en jeu</string>
     <string name="I_B_4_Faire_mise_remise_en_jeu_1">Pour faire la mise ou remise en jeu, la bille de choc doit être frappée depuis une position sur ou à l’intérieur de la ligne du « D ».</string>
     <string name="I_B_4_Faire_mise_remise_en_jeu_2">L’arbitre dira, si on le lui demande, si la bille blanche est correctement placée.</string>
+
     <string name="I_B_5_Touches_simultanee">Touches simultanées</string>
     <string name="I_B_5_Touches_simultanee_1">Deux billes autres que deux rouges ou une bille libre et la bille « ON », ne peuvent être touchée simultanément par la bille de choc.</string>
+
     <string name="I_B_6_Remise_des_couleur">Remise des couleurs sur la table</string>
     <string name="I_B_6_Remise_des_couleur_1">Si une couleur doit être remise sur la table mais que sa propre mouche est occupée, elle sera replacée sur la mouche libre de plus haute valeur.</string>
     <string name="I_B_6_Remise_des_couleur_2">S’il y a plus d’une couleur et que leurs mouches sont occupées, la bille de la valeur la plus haute a la priorité.</string>
     <string name="I_B_6_Remise_des_couleur_3">Si toutes les mouches sont occupées, la couleur sera replacée aussi près que possible de sa mouche, entre celle-ci et la partie la plus proche de la bande supérieure.</string>
     <string name="I_B_6_Remise_des_couleur_4">Si dans le cas de la noire ou de la rose, l’espace entre leur propre mouche et la partie la plus proche de la bande supérieure est occupée, la couleur sera placée aussi près que possible de sa mouche sur la ligne centrale de la table en dessous de cette mouche.</string>
+
     <string name="I_B_7_Billes_collees">Billes collées</string>
     <string name="I_B_7_Billes_collees_1">Si la bille blanche colle à une autre bille, qui est ou peut être « ON », l’arbitre annoncera « bille collée ».</string>
     <string name="I_B_7_Billes_collees_2">Le joueur doit s’en écarter, sinon il y a queutage.</string>
     <string name="I_B_7_Billes_collees_3_list">Aucune pénalité n’est encourue pour s’écarter de cette manière si :</string>
-    <string name="I_B_7_Billes_collees_3_list_item1">La bille n’est pas « ON »,</string>
-    <string name="I_B_7_Billes_collees_3_list_item2">La bille est « ON » et le joueur la désigne en tant que telle.</string>
-    <string name="I_B_7_Billes_collees_3_list_item3">La bille est « ON » et le joueur désigne et touche d’abord une autre bille.</string>
+    <string name="I_B_7_Billes_collees_3_list_item1">-La bille n’est pas « ON »,</string>
+    <string name="I_B_7_Billes_collees_3_list_item2">-La bille est « ON » et le joueur la désigne en tant que telle.</string>
+    <string name="I_B_7_Billes_collees_3_list_item3">-La bille est « ON » et le joueur désigne et touche d’abord une autre bille.</string>
     <string name="I_B_7_Billes_collees_4">Si l’arbitre considère qu’une bille collée a bougé par une action autre que celle du joueur, il n’y a pas faute.</string>
+
     <string name="I_B_8_Billes_au_bors_dune_poche">Bille au bord d\'une poche</string>
     <string name="I_B_8_Billes_au_bors_dune_poche_1">Si une bille tombe dans une poche sans être touchée par une autre bille, elle sera replacée.</string>
     <string name="I_B_8_Billes_au_bors_dune_poche_2">Si elle devait être touchée par n’importe quelle bille impliquée dans un coup, toutes les billes seront replacées et le coup sera rejoué.</string>
     <string name="I_B_8_Billes_au_bors_dune_poche_3">Si la bille tient momentanément en équilibre au bord d’une poche, puis tombe dans celle-ci, elle ne doit pas être replacée.</string>
+
     <string name="I_B_9_Bille_libre">Bille libre</string>
     <string name="I_B_9_Bille_libre_1">Après une faute, si la bille de choc est en snooker, l’arbitre annoncera « bille libre ».</string>
     <string name="I_B_9_Bille_libre_2">Le joueur non fautif prend le coup suivant, il peut considérer n’importe quelle bille comme bille « ON ».</string>
     <string name="I_B_9_Bille_libre_3">Pour ce coup, une telle bille sera considérée comme bille ‘ON » et prendra donc sa valeur.</string>
     <string name="I_B_9_Bille_libre_4_list">Il y a faute si la bille de choc :</string>
-    <string name="I_B_9_Bille_libre_4_list_item1">manque le premier contact,</string>
-    <string name="I_B_9_Bille_libre_4_list_item2">provoque un snooker au moyen de la bille qu’il a désigné, sauf quand il ne reste que la noire et la rose.</string>
+    <string name="I_B_9_Bille_libre_4_list_item1">-manque le premier contact,</string>
+    <string name="I_B_9_Bille_libre_4_list_item2">-provoque un snooker au moyen de la bille qu’il a désigné, sauf quand il ne reste que la noire et la rose.</string>
     <string name="I_B_9_Bille_libre_5_list">Si la bille libre est blousée :</string>
-    <string name="I_B_9_Bille_libre_5_list_item1">elle est remise sur sa mouche,</string>
-    <string name="I_B_9_Bille_libre_5_list_item2">la valeur de la bille « ON » est marquée.</string>
+    <string name="I_B_9_Bille_libre_5_list_item1">-elle est remise sur sa mouche,</string>
+    <string name="I_B_9_Bille_libre_5_list_item2">-la valeur de la bille « ON » est marquée.</string>
     <string name="I_B_9_Bille_libre_6">Si la bille « ON » est empochée, elle est marquée.</string>
     <string name="I_B_9_Bille_libre_7">Si la bille « ON » et la bille libre sont blousées, seule la valeur de la bille « ON » est marquée.</string>
     <string name="I_B_9_Bille_libre_8">Exemple 1: il y a snooker sur la dernière bille rouge suite à une faute de l’adversaire, si le joueur désigne la bille bleu comme bille libre et l’empoche, il marque un point et doit ensuite blouser une bille de couleur avant de jouer la bille rouge restante.</string>
     <string name="I_B_9_Bille_libre_9">Exemple 2: il y a snooker sur la bille verte suite à une faute de l’adversaire, si le joueur désigne la bille rose et la blouse, il marque trois points et la bille rose est remise sur sa mouche avant que le joueur ne tente normalement la verte.</string>
+
     <string name="I_B_10_Fautes">Fautes</string>
     <string name="I_B_10_Fautes_1_list">Si une faute est commise :</string>
-    <string name="I_B_10_Fautes_1_list_item1">l’arbitre dira immédiatement faute et annoncera la pénalité appropriée.</string>
-    <string name="I_B_10_Fautes_1_list_item2">à moins d’être annoncée par l’arbitre ou réclamée par l’adversaire avant que le coup suivant soit joué, elle est pardonnée.</string>
-    <string name="I_B_10_Fautes_1_list_item3">toute bille mal replacée sur sa mouche restera où elle se trouve, sauf si elle est hors de la table, elle sera alors correctement replacée.</string>
-    <string name="I_B_10_Fautes_1_list_item4">tous les points marqués avant que la faute ne soit déclarée ou réclamée sont acquis.</string>
-    <string name="I_B_10_Fautes_1_list_item5">le coup suivant se fera depuis l’endroit où la blanche s’est immobilisée.</string>
+    <string name="I_B_10_Fautes_1_list_item1">-l’arbitre dira immédiatement faute et annoncera la pénalité appropriée.</string>
+    <string name="I_B_10_Fautes_1_list_item2">-à moins d’être annoncée par l’arbitre ou réclamée par l’adversaire avant que le coup suivant soit joué, elle est pardonnée.</string>
+    <string name="I_B_10_Fautes_1_list_item3">-toute bille mal replacée sur sa mouche restera où elle se trouve, sauf si elle est hors de la table, elle sera alors correctement replacée.</string>
+    <string name="I_B_10_Fautes_1_list_item4">-tous les points marqués avant que la faute ne soit déclarée ou réclamée sont acquis.</string>
+    <string name="I_B_10_Fautes_1_list_item5">-le coup suivant se fera depuis l’endroit où la blanche s’est immobilisée.</string>
     <string name="I_B_10_Fautes_2">Si plus d’une faute est commise lors d’un coup, la pénalité la plus forte sera prise en compte.</string>
     <string name="I_B_10_Fautes_3_list">Le joueur qui a commis une faute :</string>
-    <string name="I_B_10_Fautes_3_list_item1">contracte la pénalité prescrite (qui est ajoutée aux points de l’adversaire)</string>
-    <string name="I_B_10_Fautes_3_list_item2">doit rejouer si le joueur suivant le demande. Une telle demande, une fois faite, ne peut être annulée.</string>
+    <string name="I_B_10_Fautes_3_list_item1">-contracte la pénalité prescrite (qui est ajoutée aux points de l’adversaire)</string>
+    <string name="I_B_10_Fautes_3_list_item2">-doit rejouer si le joueur suivant le demande. Une telle demande, une fois faite, ne peut être annulée.</string>
+
     <string name="I_B_11_Penalites">Pénalités</string>
     <string name="I_B_11_Penalites_1">Voici les fautes qui contractent une pénalité de points ou plus selon prescription.</string>
     <string name="I_B_11_Penalites_2_list">La valeur de la bille « ON » en jouant</string>
-    <string name="I_B_11_Penalites_2_list_item1">quand les billes ne sont pas arrêtées</string>
-    <string name="I_B_11_Penalites_2_list_item2">la bille de choc plus d’une fois</string>
-    <string name="I_B_11_Penalites_2_list_item3">sans qu’un des deux pieds du joueur ne touche le sol</string>
-    <string name="I_B_11_Penalites_2_list_item4">en dehors de son tour</string>
-    <string name="I_B_11_Penalites_2_list_item5">incorrectement la mise ou remise en jeu</string>
-    <string name="I_B_11_Penalites_2_list_item6">la bille blanche de façon à ce qu’elle ne touche aucune bille objet</string>
-    <string name="I_B_11_Penalites_2_list_item7">la bille blanche rentre dans une poche</string>
-    <string name="I_B_11_Penalites_2_list_item8">un snooker au moyen de la bille libre</string>
-    <string name="I_B_11_Penalites_2_list_item9">un jump shot (saut)</string>
+    <string name="I_B_11_Penalites_2_list_item1">-quand les billes ne sont pas arrêtées</string>
+    <string name="I_B_11_Penalites_2_list_item2">-la bille de choc plus d’une fois</string>
+    <string name="I_B_11_Penalites_2_list_item3">-sans qu’un des deux pieds du joueur ne touche le sol</string>
+    <string name="I_B_11_Penalites_2_list_item4">-en dehors de son tour</string>
+    <string name="I_B_11_Penalites_2_list_item5">-incorrectement la mise ou remise en jeu</string>
+    <string name="I_B_11_Penalites_2_list_item6">-la bille blanche de façon à ce qu’elle ne touche aucune bille objet</string>
+    <string name="I_B_11_Penalites_2_list_item7">-la bille blanche rentre dans une poche</string>
+    <string name="I_B_11_Penalites_2_list_item8">-un snooker au moyen de la bille libre</string>
+    <string name="I_B_11_Penalites_2_list_item9">-un jump shot (saut)</string>
     <string name="I_B_11_Penalites_3_list">La valeur de la bille « ON » ou de la bille concernée</string>
-    <string name="I_B_11_Penalites_3_list_item1">en rentrant une bille qui n’est pas « ON » dans une poche</string>
-    <string name="I_B_11_Penalites_3_list_item2">en touchant en premier lieu avec la bille blanche, une bille qui n’est pas « ON »</string>
-    <string name="I_B_11_Penalites_3_list_item3">en faisant un queutage</string>
-    <string name="I_B_11_Penalites_3_list_item4">en jouant alors qu’une bille est mal placée</string>
-    <string name="I_B_11_Penalites_3_list_item5">en touchant une bille avec autre chose que le procédé de la queue</string>
-    <string name="I_B_11_Penalites_3_list_item6">en éjectant une bille de la table</string>
+    <string name="I_B_11_Penalites_3_list_item1">-en rentrant une bille qui n’est pas « ON » dans une poche</string>
+    <string name="I_B_11_Penalites_3_list_item2">-en touchant en premier lieu avec la bille blanche, une bille qui n’est pas « ON »</string>
+    <string name="I_B_11_Penalites_3_list_item3">-en faisant un queutage</string>
+    <string name="I_B_11_Penalites_3_list_item4">-en jouant alors qu’une bille est mal placée</string>
+    <string name="I_B_11_Penalites_3_list_item5">-en touchant une bille avec autre chose que le procédé de la queue</string>
+    <string name="I_B_11_Penalites_3_list_item6">-en éjectant une bille de la table</string>
     <string name="I_B_11_Penalites_4">La valeur de la bille « ON » ou la valeur la plus haute des deux billes en cause si la bille blanche touche simultanément deux billes autres que deux billes rouges ou une bille libre et la bille « ON ».</string>
     <string name="I_B_11_Penalites_5_list">Une pénalité de sept points est contractée si le joueur :</string>
-    <string name="I_B_11_Penalites_5_list_item1">après avoir empoché une rouge, commet une faute avant d’avoir désigné une couleur</string>
-    <string name="I_B_11_Penalites_5_list_item2">utilise, dans n’importe quel but, une bille qui est hors de la table</string>
-    <string name="I_B_11_Penalites_5_list_item3">joue des rouges à des coups successifs</string>
-    <string name="I_B_11_Penalites_5_list_item4">utilise comme bille de choc, toute autre bille que la blanche</string>
+    <string name="I_B_11_Penalites_5_list_item1">-après avoir empoché une rouge, commet une faute avant d’avoir désigné une couleur</string>
+    <string name="I_B_11_Penalites_5_list_item2">-utilise, dans n’importe quel but, une bille qui est hors de la table</string>
+    <string name="I_B_11_Penalites_5_list_item3">-joue des rouges à des coups successifs</string>
+    <string name="I_B_11_Penalites_5_list_item4">-utilise comme bille de choc, toute autre bille que la blanche</string>
+
     <string name="I_B_12_Bille_bougee_par_tier">Bille bougée par quelqu\'un d\'autre que le joueur</string>
     <string name="I_B_12_Bille_bougee_par_tier_1">Si une bille, à l’arrêt ou en mouvement, est dérangée par quelqu’un d’autre que le joueur, elle sera replacée par l’arbitre.</string>
     <string name="I_B_12_Bille_bougee_par_tier_2">Ceci couvre le cas dans lequel une autre action occasionne au joueur actif de toucher une bille.</string>
     <string name="I_B_12_Bille_bougee_par_tier_3">Aucun joueur ne sera responsable du dérangement des billes par l’arbitre.</string>
+
     <string name="I_B_13_Situation_PAT">Situation Pat</string>
     <string name="I_B_13_Situation_PAT_1">Si l’arbitre considère qu’on approche d’une position Pat, il avertira les joueurs que si la situation ne change pas rapidement, il devra déclarer la manche comme nulle et non avenue. La manche devra être recommencée dans le même ordre de jeu.</string>
+
     <string name="I_B_14_Jeu_a_4">Jeu à quatre</string>
     <string name="I_B_14_Jeu_a_4_1">Au jeu à quatre, chaque équipe ouvrira alternativement la manche, l’ordre de jeu sera déterminé au commencement de chaque manche et doit être maintenu tout au long de la manche.</string>
     <string name="I_B_14_Jeu_a_4_2">Les joueurs peuvent changer l’ordre du jeu au début de chaque manche.</string>
@@ -348,6 +361,7 @@
     <string name="I_B_14_Jeu_a_4_4">Quand une manche se termine à égalité de points, on applique la règle 3.3 alinéa 10.</string>
     <string name="I_B_14_Jeu_a_4_5">Des partenaires peuvent se consulter pendant le jeu, mais pas pendant que le joueur actif est à la table.</string>
 
+    <!--Billard ricain-->
     <string name="II_Billard_americain">Billard américain</string>
     <string name="II_A_Regles_communes_americain">Règles communes des Billards américains</string>
     <string name="II_A_1_Introduction_1">\tAu début de la partie, la bille blanche est placée dans le quart supérieur de la table, au gré du joueur qui a la main, et les billes restantes sont disposées en paquet, soit en losange soit en triangle, la bille de tête étant placée sur la mouche inférieure.</string>
@@ -446,8 +460,10 @@
     <string name="II_E_3_Déroulement_du_jeu_1">\tComme il est obligatoire d\'annoncer les billes même à la casse, une partie de 14/1 commence traditionnellement par un coup de défense similaire à celui du snooker : la blanche est envoyée choquer la pointe droite ou gauche du triangle, libérant ainsi au minimum les billes puis va toucher deux, souvent trois, bandes et revient vers son point de départ, au plus près de la bande du haut pour ne pas laisser de coup aisé à l\'adversaire. </string>
     <string name="II_E_3_Déroulement_du_jeu_2">\tLorsqu\'il ne reste plus qu\'une bille sur la table, celle-ci et la blanche restent à leur place, sauf cas spécial. Les 14 autres billes sont replacées en triangle, la bille de tête manquante. Le joueur doit alors chercher à empocher la bille libre tout en envoyant la blanche dans le triangle pour libérer les billes et continuer sur sa lancée, ou effectuer un coup de défense.</string>
 
+    <!--français-->
     <string name="III_Billard_francais">Billard français</string>
     <string name="III_1_Introduction">L’arbitre dirige seul la partie, à l’exclusion de toute autre personne. Les joueurs ont, exceptionnellement, le droit d’intervenir lorsqu’il s’agit d’une question d’application des règlements. L’arbitre doit veiller à ce qu’aucune intervention non justifiée ne se manifeste.</string>
+
     <string name="III_2_Debut_de_la_partie">Début de la partie</string>
     <string name="III_2_Debut_de_la_partie_1">Les joueurs sont autorisés à essayer les instruments de jeu pendant la matinée qui précède l’ouverture du championnat. Le responsable de l’arbitrage fixe, d’une manière équitable, les tours de rôle et la durée d’entraînement pour chaque joueur.</string>
     <string name="III_2_Debut_de_la_partie_2">Les joueurs ont droit à 5 minutes d’échauffement pour la première partie sur un billard et à 3 minutes pour les parties suivantes.</string>
@@ -455,103 +471,121 @@
     <string name="III_2_Debut_de_la_partie_4">L’arbitre donne le signal du départ. Les joueurs tirent simultanément le départ sur la bande du haut. Les deux billes doivent être en mouvement avant que l’une d’entre elles atteigne la bande du haut. Si le tirage n’est pas simultané, il sera recommencé. Le joueur provoquant deux fois un nouveau tirage perd le choix du départ. Celui dont la bille s’arrête le plus près de la bande du bas a le choix du départ.</string>
     <string name="III_2_Debut_de_la_partie_5">Si, dans leur trajet, les billes autres que la rouge se sont heurtées ou si elles s’arrêtent à égale distance de la bande du bas, l’arbitre fait recommencer le tirage.</string>
     <string name="III_2_Debut_de_la_partie_6">Si la bille de l’un des joueurs heurte la bille rouge, il y a faute et les choix prévus l’article 2.4 in fine sont accordés à l’autre joueur.</string>
+
     <string name="III_3_Position_de_depart">Position de départ</string>
     <string name="III_3_Position_de_depart_1_list">Les billes sont placées par l’arbitre :</string>
-    <string name="III_3_Position_de_depart_1_list_item1">la bille rouge sur la mouche haute,</string>
-    <string name="III_3_Position_de_depart_1_list_item2">la bille jaune (ou pointée) de l’adversaire sur la mouche centrale de la ligne de départ,</string>
-    <string name="III_3_Position_de_depart_1_list_item3">la bille blanche du joueur, au gré de ce dernier, sur l’une des deux mouches extérieures de la ligne de départ.</string>
-    <string name="III_3_Position_de_depart_2">Le carambolage de départ doit s’exécuter sur la bille rouge directement ou par la bande. Le joueur qui entame la partie joue avec la bille blanche et doit la conserver pendant toute la partie ou pendant tous les sets de la partie.</string>
+    <string name="III_3_Position_de_depart_1_list_item1">-la bille rouge sur la mouche haute,</string>
+    <string name="III_3_Position_de_depart_1_list_item2">-la bille jaune (ou pointée) de l’adversaire sur la mouche centrale de la ligne de départ,</string>
+    <string name="III_3_Position_de_depart_1_list_item3">-la bille blanche du joueur, au gré de ce dernier, sur l’une des deux mouches extérieures de la ligne de départ.</string>
+    <string name="III_3_Position_de_depart_2">\nLe carambolage de départ doit s’exécuter sur la bille rouge directement ou par la bande. Le joueur qui entame la partie joue avec la bille blanche et doit la conserver pendant toute la partie ou pendant tous les sets de la partie.</string>
+
     <string name="III_4_Interruption">Interruption de la partie</string>
     <string name="III_4_Interruption_1">Une pause de trois minutes doit être accordée par l’arbitre au milieu de la partie. Elle peut ne pas être utilisée en cas d’accord entre les joueurs.</string>
     <string name="III_4_Interruption_2">Cette pause peut être octroyée en cours de partie en cas d’accord entre les deux joueurs. En aucun cas elle ne peut être octroyée en cours de série. Dans le cas d’une partie par manche, la pause a lieu comme suit : dans une partie, au meilleur des trois manches, après la 2ème manche, dans une partie, au meilleur des cinq manches, après la 2ème et la 4ème manche.</string>
     <string name="III_4_Interruption_3">Un joueur qui quitte sa place pendant un match perd la partie. Le cas de force majeure survenant en cours de championnat sera apprécié par l’arbitre ou le directeur de jeu.</string>
+
     <string name="III_5_Bille_en_contact">Billes en contact</string>
     <string name="III_5_Bille_en_contact_1_list">Billes en contact lorsque la bille du joueur est en contact avec une des deux autres billes, le droit du joueur est différent suivant les modes de jeu :</string>
     <string name="III_5_Bille_en_contact_1_list_item1_list">Partie libre</string>
-    <string name="III_5_Bille_en_contact_1_list_item1_list_item1">sur billard de match : obligation de remettre les trois billes sur mouches dans la position de départ,</string>
-    <string name="III_5_Bille_en_contact_1_list_item1_list_item2">sur billard de demi-match ou en-dessous : le joueur a le droit de choisir comme prévu pour les jeux de cadre (voir 5.2 ci-après).</string>
+    <string name="III_5_Bille_en_contact_1_list_item1_list_item1">-sur billard de match : obligation de remettre les trois billes sur mouches dans la position de départ,</string>
+    <string name="III_5_Bille_en_contact_1_list_item1_list_item2">-sur billard de demi-match ou en-dessous : le joueur a le droit de choisir comme prévu pour les jeux de cadre (voir 5.2 ci-après).</string>
     <string name="III_5_Bille_en_contact_1_list_item2">Jeux de cadre (47/2 – 47/1 – 71/2)</string>
     <string name="III_5_Bille_en_contact_1_list_item2_list">Le joueur a le droit :</string>
-    <string name="III_5_Bille_en_contact_1_list_item2_list_item1">soit de faire remettre les trois billes sur mouches dans la position de départ,</string>
-    <string name="III_5_Bille_en_contact_1_list_item2_list_item2">soit de jouer par la bille qui n’est pas en contact ou par la bande avant, c) soit de jouer par le massé détaché sans faire bouger la bille en contact. Dans ce dernier cas, le joueur peut caramboler sur la bille qui était en contact. Il n’y a pas faute si la bille en contact bouge uniquement du fait qu’elle perd le point d’appui qu’éventuellement lui donnait la bille joueuse.</string>
+    <string name="III_5_Bille_en_contact_1_list_item2_list_item1">-soit de faire remettre les trois billes sur mouches dans la position de départ,</string>
+    <string name="III_5_Bille_en_contact_1_list_item2_list_item2">-soit de jouer par la bille qui n’est pas en contact ou par la bande avant, c) soit de jouer par le massé détaché sans faire bouger la bille en contact. Dans ce dernier cas, le joueur peut caramboler sur la bille qui était en contact. Il n’y a pas faute si la bille en contact bouge uniquement du fait qu’elle perd le point d’appui qu’éventuellement lui donnait la bille joueuse.</string>
     <string name="III_5_Bille_en_contact_1_list_item3">Partie par une bande</string>
     <string name="III_5_Bille_en_contact_1_list_item3_1">Même règles que pour les jeux de cadre</string>
     <string name="III_5_Bille_en_contact_1_list_item4">Partie par trois bandes</string>
     <string name="III_5_Bille_en_contact_1_list_item4_1">Même règles que pour les jeux de cadre, mais si les billes sont remises sur mouches, seules celles en contact le sont dans les conditions prévues l’article 6 alinéa b.</string>
+
     <string name="III_6_Billes_sautant_hors_billard">Billes sautant hors du billard</string>
     <string name="III_6_Billes_sautant_hors_billard_1_list">Une bille est réputée sautée hors du billard dès qu’elle est tombée hors de l’encadrement ou dès qu’elle a touché le bois de l’encadrement. Lorsqu’une ou plusieurs billes sautent hors du billard, la ou les billes sont replacées diversement sur mouches, selon le mode de jeu :</string>
-    <string name="III_6_Billes_sautant_hors_billard_1_list_item1">à la partie libre, aux jeux de cadre ou à la partie par une bande : les trois billes sont replacées dans la position du départ,</string>
-    <string name="III_6_Billes_sautant_hors_billard_1_list_item2">à la partie par trois bandes, seule la bille sautée ou les billes sautées sont remises sur mouches dans les positions suivantes : la rouge, sur la mouche haute (sa mouche de départ), la bille du joueur qui va jouer, sur la mouche basse (au centre de la ligne de départ), la bille du joueur adverse (celui qui vient de commettre la faute) sur la mouche centrale (au milieu du billard). Si la mouche correspondant à la bille est occupée, la bille sera placée sur la mouche correspondant à la bille occupante.</string>
+    <string name="III_6_Billes_sautant_hors_billard_1_list_item1">-à la partie libre, aux jeux de cadre ou à la partie par une bande : les trois billes sont replacées dans la position du départ,</string>
+    <string name="III_6_Billes_sautant_hors_billard_1_list_item2">-à la partie par trois bandes, seule la bille sautée ou les billes sautées sont remises sur mouches dans les positions suivantes : la rouge, sur la mouche haute (sa mouche de départ), la bille du joueur qui va jouer, sur la mouche basse (au centre de la ligne de départ), la bille du joueur adverse (celui qui vient de commettre la faute) sur la mouche centrale (au milieu du billard). Si la mouche correspondant à la bille est occupée, la bille sera placée sur la mouche correspondant à la bille occupante.</string>
+
     <string name="III_7_La_queue">La queue</string>
     <string name="III_7_La_queue_1">Le joueur doit uniquement faire usage du procédé de la queue pour caramboler. Le joueur a le droit de se servir du « râteau », une main dirige la queue, l’autre tenant sur le râteau.</string>
+
     <string name="III_8_Fautes">Les fautes</string>
     <string name="III_8_Fautes_1">Un carambolage n’est définitivement acquis que lorsque les trois billes sont arrêtées sans qu’il y ait eu faute.</string>
     <string name="III_8_Fautes_2_list">Il y a faute et la main passe :</string>
-    <string name="III_8_Fautes_2_list_item1">si dans l’exécution d’un coup une ou plusieurs billes sautent hors du billard,</string>
-    <string name="III_8_Fautes_2_list_item2">si l’on joue avant que les trois billes ne soient immobiles,</string>
-    <string name="III_8_Fautes_2_list_item3">si l’on touche l’une quelconque des billes avec la main ou tout autre objet, y compris la craie (si après avoir manqué un carambolage ou commis une faute, le joueur passant la main touche une ou plusieurs billes, intentionnellement ou non, l’arbitre replace les billes bougées le plus près possible de l’endroit où elles se trouvaient),</string>
-    <string name="III_8_Fautes_2_list_item4">si l’on queute (il y a queutage lorsque le procédé est encore en contact avec la bille du joueur au moment où celle-ci touche une autre bille ou la bande ou lorsqu’il entre en contact plusieurs fois avec la bille mise en mouvement. Il est interdit de jouer directement sur une bande en contact avec la bille du joueur sans préalablement détacher cette dernière par le massé),</string>
-    <string name="III_8_Fautes_2_list_item5">lorsque, à la suite d’une fausse queue, la bille du joueur est touchée par une partie de la queue autre que le procédé,</string>
-    <string name="III_8_Fautes_2_list_item6">si au moment où le joueur frappe la bille, il ne touche pas le sol avec au moins un pied,</string>
-    <string name="III_8_Fautes_2_list_item7">si l’on fait sur la bande, la surface de jeu ou le bord extérieur du billard, des points de repère,</string>
-    <string name="III_8_Fautes_2_list_item8">si, à la reprise ou au cours de la série, l’arbitre constate qu’un joueur change de bille (les carambolages réalisés avant celui où la faute est constatée restent acquis au joueur ayant commis la faute),</string>
-    <string name="III_8_Fautes_2_list_item9">si, dans les jeux de cadre et libre, le joueur, après l’annonce « dedans », ne sort pas au moins une des deux billes, autre que la sienne, de la zone réglementée,</string>
-    <string name="III_8_Fautes_2_list_item10">si, au cours de série, le joueur exécutant quitte la salle de jeu (sauf en cas de force majeure laissé à l’appréciation de l’arbitre, la main doit passer à l’adversaire).</string>
-    <string name="III_8_Fautes_3">Une faute provoquée par une tierce personne, ou par un élément extérieur, n’est pas imputable au joueur. Si de ce fait, les billes ont été déplacées, elles seront remises, autant que possible dans la position où elles se trouvaient avant l’incident. Le joueur n’est pas responsable d’un mauvais placement ou replacement des billes par l’arbitre. Toutefois, il commet une faute s’il ne joue pas avec la bille avec laquelle il a commencé la partie.</string>
+    <string name="III_8_Fautes_2_list_item1">-si dans l’exécution d’un coup une ou plusieurs billes sautent hors du billard,</string>
+    <string name="III_8_Fautes_2_list_item2">-si l’on joue avant que les trois billes ne soient immobiles,</string>
+    <string name="III_8_Fautes_2_list_item3">-si l’on touche l’une quelconque des billes avec la main ou tout autre objet, y compris la craie (si après avoir manqué un carambolage ou commis une faute, le joueur passant la main touche une ou plusieurs billes, intentionnellement ou non, l’arbitre replace les billes bougées le plus près possible de l’endroit où elles se trouvaient),</string>
+    <string name="III_8_Fautes_2_list_item4">-si l’on queute (il y a queutage lorsque le procédé est encore en contact avec la bille du joueur au moment où celle-ci touche une autre bille ou la bande ou lorsqu’il entre en contact plusieurs fois avec la bille mise en mouvement. Il est interdit de jouer directement sur une bande en contact avec la bille du joueur sans préalablement détacher cette dernière par le massé),</string>
+    <string name="III_8_Fautes_2_list_item5">-lorsque, à la suite d’une fausse queue, la bille du joueur est touchée par une partie de la queue autre que le procédé,</string>
+    <string name="III_8_Fautes_2_list_item6">-si au moment où le joueur frappe la bille, il ne touche pas le sol avec au moins un pied,</string>
+    <string name="III_8_Fautes_2_list_item7">-si l’on fait sur la bande, la surface de jeu ou le bord extérieur du billard, des points de repère,</string>
+    <string name="III_8_Fautes_2_list_item8">-si, à la reprise ou au cours de la série, l’arbitre constate qu’un joueur change de bille (les carambolages réalisés avant celui où la faute est constatée restent acquis au joueur ayant commis la faute),</string>
+    <string name="III_8_Fautes_2_list_item9">-si, dans les jeux de cadre et libre, le joueur, après l’annonce « dedans », ne sort pas au moins une des deux billes, autre que la sienne, de la zone réglementée,</string>
+    <string name="III_8_Fautes_2_list_item10">-si, au cours de série, le joueur exécutant quitte la salle de jeu (sauf en cas de force majeure laissé à l’appréciation de l’arbitre, la main doit passer à l’adversaire).</string>
+    <string name="III_8_Fautes_3">\nUne faute provoquée par une tierce personne, ou par un élément extérieur, n’est pas imputable au joueur. Si de ce fait, les billes ont été déplacées, elles seront remises, autant que possible dans la position où elles se trouvaient avant l’incident. Le joueur n’est pas responsable d’un mauvais placement ou replacement des billes par l’arbitre. Toutefois, il commet une faute s’il ne joue pas avec la bille avec laquelle il a commencé la partie.</string>
     <string name="III_8_Fautes_4">Toute faute non constatée par l’arbitre, ne peut être sanctionnée et le carambolage reste acquis. Si un carambolage est fait après celui où la faute a été commise, mais non constatée, celui-ci reste acquis et le joueur conserve la main.</string>
     <string name="III_8_Fautes_5">Si l’arbitre a accordé injustement un point, il a le droit de revenir sur sa décision, à la condition toutefois que le joueur n’ait pas encore commencé à exécuter le point suivant.</string>
     <string name="III_8_Fautes_6">Si un joueur commet une faute et continue à jouer avant que l’arbitre n’ait eu la possibilité ou le temps de l’annoncer, celui-ci doit procéder comme si le joueur fautif avait passé la main. Il replacera les billes le plus près possible de la position où elles se trouvaient au moment où la faute a été commise.</string>
     <string name="III_8_Fautes_7">Lorsqu’une position semble nécessiter un temps de réflexion prolongée ou que pour toute autre raison, le joueur tarde à jouer, l’arbitre peut, de sa propre initiative, lui fixer une limite de 30 secondes pour exécuter son coup. Si le joueur ne s’est pas exécuté dans le délai imparti, la main passe, les billes restant à leur place.</string>
+
     <string name="III_9_Annonces_de_arbitre">Annonces de l\'arbitre</string>
     <string name="III_9_Annonces_de_arbitre_1">L’arbitre compte les points à haute voix.</string>
     <string name="III_9_Annonces_de_arbitre_2">Dans les jeux comportant des zones d’interdiction (partie libre et cadre), l’arbitre annonce à haute voix la position des billes « à cheval », « entré », « dedans », en donnant, dans les jeux de cadre, la position par rapport au grand cadre avant celle se rapportant au cadre additionnel (ancre). Il ne peut annoncer la position dans l’ancre, sans la faire précéder de la position dans le grand cadre. La bille située sur la ligne de zone sera jugée au désavantage du joueur.</string>
     <string name="III_9_Annonces_de_arbitre_3">Annonces possibles dans tous les jeux de cadre</string>
     <string name="III_9_Annonces_de_arbitre_4_list">Si l’arbitre doit faire plus d’une annonce, il observera l’ordre suivant :</string>
-    <string name="III_9_Annonces_de_arbitre_4_list_item1">le nombre de carambolages réussis</string>
-    <string name="III_9_Annonces_de_arbitre_4_list_item2">l’annonce « pour »</string>
-    <string name="III_9_Annonces_de_arbitre_4_list_item3">la position des billes par rapport à la zone réglementée</string>
-    <string name="III_9_Annonces_de_arbitre_4_list_item4">si la bille du joueur est en contact avec une autre bille ou une bande</string>
+    <string name="III_9_Annonces_de_arbitre_4_list_item1">-le nombre de carambolages réussis</string>
+    <string name="III_9_Annonces_de_arbitre_4_list_item2">-l’annonce « pour »</string>
+    <string name="III_9_Annonces_de_arbitre_4_list_item3">-la position des billes par rapport à la zone réglementée</string>
+    <string name="III_9_Annonces_de_arbitre_4_list_item4">-si la bille du joueur est en contact avec une autre bille ou une bande</string>
+
     <string name="III_10_Manipulation_des_billes">Manipulation des billes</string>
     <string name="III_10_Manipulation_des_billes_1">L’arbitre avertit le joueur quand sa bille touche une des autres billes ou la bande.</string>
     <string name="III_10_Manipulation_des_billes_2">Seul l’arbitre manipule les billes pour les remettre sur mouches, pour les replacer s’il y a lieu ou pour les nettoyer.</string>
     <string name="III_10_Manipulation_des_billes_3">Il repère rigoureusement la place des billes avant de les enlever pour les nettoyer. Il s’assure, lors de la reprise, que le joueur conserve bien sa bille.</string>
     <string name="III_10_Manipulation_des_billes_4">Une bille ne peut être nettoyée si elle est en contact avec une autre bille ou une bande.</string>
+
     <string name="III_11_Feuille_de_marque">Feuille de marque</string>
     <string name="III_11_Feuille_de_marque_1">L’arbitre doit contrôler le compte des points ainsi que la marque. En cas de différence entre la feuille de marque et le tableau, c’est la feuille de marque qui fait foi, après que l’arbitre ait contrôle les totaux partiels.</string>
+
     <string name="III_12_Passage_de_la_main">Passagede la main</string>
     <string name="III_12_Passage_de_la_main_1">L’arbitre n’accorde la main à l’adversaire que lorsque les trois billes sont immobiles.</string>
     <string name="III_12_Passage_de_la_main_2">Le joueur a le droit de demander à l’arbitre pourquoi la main passe.</string>
+
     <string name="III_13_Nettoyage">Nettoyage</string>
     <string name="III_13_Nettoyage_1">A la demande du joueur, mais pour autant qu’il le juge nécessaire, ou de sa propre initiative, l’arbitre peut à tout moment de la partie, faire procéder au nettoyage du billard et des billes(sauf si elle est en contact avec une autre bille ou une bande). Le nettoyage doit se faire dans le délai le plus court.</string>
+
     <string name="III_14_Informations">Informations</string>
     <string name="III_14_Informations_1">Il est expressément interdit à l’arbitre de mettre le joueur en garde contre toute faute que celui-ci serait sur le point de commettre. Cependant, l\'arbitre doit arrêter le joueur qui reprend la main si les billes ne sont pas immobiles. En cours de série, l’arbitre mentionnera la faute si le joueur joue alors que les billes ne sont pas immobiles. Pas plus à la reprise qu’en cours de série, l’arbitre ne peut indiquer la bille au joueur.</string>
     <string name="III_14_Informations_2">Le joueur a le droit de s’informer, auprès de l’arbitre, laquelle des deux billes est la bille blanche.</string>
     <string name="III_14_Informations_3">Aux jeux de cadre et à la partie libre, l’arbitre est tenu d’annoncer la position des billes par rapport aux zones réglementées, même si cette indication situe la bille du joueur.</string>
+
     <string name="III_15_Litiges">Litiges</string>
     <string name="III_15_Litiges_1">En cas de doute sur une décision de l’arbitre, le joueur peut lui demander, mais une seule fois, de réexaminer le cas.</string>
     <string name="III_15_Litiges_2">L’arbitre est tenu de faire droit à cette demande. S’il s’agit d’une situation encore existante, il réexamine seul le cas. Dans la négative, il peut consulter son remplaçant lorsqu’il y en a un de prévu, à l’exclusion de toute autre personne.</string>
     <string name="III_15_Litiges_3">L’adversaire peut également demander à l’arbitre, mais une seule fois, de réexaminer une décision. Si de telles demandes se répètent et que l’arbitre estime qu’elles sont essentiellement destinées à gêner l’autre joueur, il peut délivrer un avertissement.</string>
     <string name="III_15_Litiges_4_list">L’adversaire, ainsi que le tenant de la feuille de marque, peuvent intervenir auprès de l’arbitre pour lui signaler une erreur de sa part dans l’un ou l’autre des cas suivants :</string>
-    <string name="III_15_Litiges_4_list_item1">le joueur ne joue pas avec sa bille</string>
-    <string name="III_15_Litiges_4_list_item2">une fausse annonce est faite concernant la position des billes dans une zone réglementée</string>
-    <string name="III_15_Litiges_4_list_item3">erreur dans le comptage des points</string>
-    <string name="III_15_Litiges_4_list_item4">erreur de remise des billes sur mouches</string>
+    <string name="III_15_Litiges_4_list_item1">-le joueur ne joue pas avec sa bille</string>
+    <string name="III_15_Litiges_4_list_item2">-une fausse annonce est faite concernant la position des billes dans une zone réglementée</string>
+    <string name="III_15_Litiges_4_list_item3">-erreur dans le comptage des points</string>
+    <string name="III_15_Litiges_4_list_item4">-erreur de remise des billes sur mouches</string>
     <string name="III_15_Litiges_4_suite">Leur intervention se fera de manière discrète sans troubler le déroulement des autres parties.</string>
+
     <string name="III_16_Reclamations">Réclamations</string>
     <string name="III_16_Reclamations_1">Les décisions de l’arbitre, après application éventuelle des dispositions des articles 8.5 et litiges, sont définitives et sans appel pour les questions de fait. Sont exceptées les questions d’application des règlements.</string>
     <string name="III_16_Reclamations_2">Toute réclamation relative aux questions d’application des règlements devra être formulée auprès de l’arbitre au moment ou l’erreur présumée s’est produite. Si l’arbitre ne donne pas suite à la réclamation, le joueur a la possibilité de la formuler à nouveau sur la feuille de match à l’issue de la partie. La réclamation devra être examinée le jour même par le représentant de la Fédération et/ou le Directeur de jeu. Si l’erreur commise a pu influencer le résultat de la partie, la direction du tournoi devra la faire rejouer.</string>
     <string name="III_16_Reclamations_3">Le représentant de la Fédération, ou en son absence le directeur de jeu, devra, en cas de réclamation, faire un rapport à la Commission Sportive et à la Commission d’Arbitrage dans les 48 heures.</string>
+
     <string name="III_17_Annonce_fin_partie">Matériels</string>
     <string name="III_17_Annonce_fin_partie_1">L’arbitre, sur indication du tenant de la feuille de match avertit le joueur lorsque celui-ci jouera pour 5 points, 4, 3, 2 et 1. A la partie par 3 bandes, l’arbitre annoncera pour 3, 2 et 1.</string>
     <string name="III_17_Annonce_fin_partie_2">Lorsque, ayant annoncé pour 1, l’arbitre déclare bon le dernier carambolage, le joueur sera crédité de la totalité des points que comporte la partie, même si une erreur de marque était découverte ultérieurement.</string>
     <string name="III_17_Annonce_fin_partie_3">en ce qui concerne la limitation du nombre de reprises, l’arbitre devra annoncer : encore 3 reprises, avant dernière reprise, dernière reprise, avant que ne joue le joueur ayant commencé la partie.</string>
     <string name="III_17_Annonce_fin_partie_4">Le joueur n’ayant pas commencé la partie a la reprise à jouer, les 3 billes étant remises sur mouches dans la position de départ. Cette obligation est la même lorsque la partie est arrêtée en raison de la limitation du nombre de reprises. Ce joueur a la possibilité de gagner la partie, si au cours de sa dernière reprise il réalise un nombre de carambolages lui permettant de dépasser son adversaire, à condition que celui-ci n’ait pas atteint la limite en points de la partie. Dans ce dernier cas, il peut égaliser. Dans le cas de parties par manches, il pourra être prévu qu’il n’y a pas de reprise égalisatrice. Au sein de la F.F.B., cette disposition n’est actuellement applicable que pour le National au 3 Bandes.</string>
     <string name="III_17_Annonce_fin_partie_5">Lorsque la main passe, l’arbitre annonce le nom du joueur suivi du nombre de points réalisé (éventuellement 0). Il ajoutera « reprise » s’il s’agit du joueur ayant commencé la partie. Le tenant de la feuille de match donne quittance de l’annonce.</string>
+
     <string name="III_18_Attitude_des_joueurs">Attitude des joueurs</string>
     <string name="III_18_Attitude_des_joueurs_1">L’arbitre doit veiller à ce que les joueurs aient une attitude correcte et loyale et s’abstiennent de tout geste ou attitude de nature à gêner l’adversaire. Il avertira les joueurs qui contreviendraient aux règles de conduite. Il fera ensuite rapport à la direction du tournoi. Si un joueur déjà averti se met à nouveau en infraction, l’arbitre peut interrompre la partie, le match étant perdu pour le joueur fautif.</string>
     <string name="III_18_Attitude_des_joueurs_2">Quand la main passe, l’adversaire doit obligatoirement s’asseoir sur la chaise réservée aux joueurs.</string>
+
     <string name="III_19_Cas_exceptionnels">Cas exceptionnels</string>
     <string name="III_19_Cas_exceptionnels_1">Les cas exceptionnels non prévus au présent règlement sont laissés à l’appréciation de l’arbitre. Celui-ci devra faire un rapport a la Commission Sportive et à la Commission d’Arbitrage dans les 48 heures.</string>
+
     <string name="title_activity_accordion">Accordion</string>
 
 

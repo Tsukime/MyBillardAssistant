@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         android:background="#730000">
     </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="10dp"
         android:layout_height="match_parent"
