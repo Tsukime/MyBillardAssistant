@@ -126,6 +126,7 @@ public class ReglesSnooker extends AppCompatActivity {
 
             }
         });
+
         Button findMagicBtn2 = (Button) findViewById(R.id.PrincipeSnook);
         findMagicBtn2.setOnClickListener(new View.OnClickListener() {
             boolean animationClosing = false;
@@ -368,6 +369,7 @@ public class ReglesSnooker extends AppCompatActivity {
 
             }
         });
+
         Button findMagicBtnB = (Button) findViewById(R.id.BBouger);
         findMagicBtnB.setOnClickListener(new View.OnClickListener() {
             boolean animationClosing = false;

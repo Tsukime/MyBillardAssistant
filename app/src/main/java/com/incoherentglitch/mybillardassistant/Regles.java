@@ -1,8 +1,6 @@
 package com.incoherentglitch.mybillardassistant;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -16,8 +14,6 @@ public class Regles extends Activity {
     private ImageButton bBillardFrancais = null, bBillardAmericain = null, bPoolAnglais = null, bSnooker = null;
 
     private View.OnClickListener clickListenerBoutons = new View.OnClickListener() {
-        // private Intent deuxiemeActivite = null;
-
         @Override
         public void onClick(View v) {
             Intent activityTwo = null;
@@ -41,7 +37,6 @@ public class Regles extends Activity {
                 activityTwo = new Intent(Regles.this, ReglesSnooker.class);
                 startActivity(activityTwo);
             }
-
         }
     };
 

@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 public class Advise extends AppCompatActivity {
     private Button bConseilInternet = null;
@@ -20,15 +19,7 @@ public class Advise extends AppCompatActivity {
         setContentView(R.layout.activity_advise);
         bConseilInternet = (Button) findViewById(R.id.bouton_conseils_internet);
         bConseilInternet.setOnClickListener(clickListenerBoutons);
-/*
-        final ImageButton ireturn = (ImageButton) findViewById(R.id.iReturn);
-        ireturn.setOnClickListener(new View.OnClickListener() { //appelle les instruction dans OnClick ci-dessus quand cliqué
-            public void onClick(View v) {
-                Intent registerIntent = new Intent(Advise.this, Menu.class);
-                Advise.this.startActivity(registerIntent);   //ouvre une activité
-            }
-        }
-        );*/
+
     }
 
     private View.OnClickListener clickListenerBoutons = new View.OnClickListener() {

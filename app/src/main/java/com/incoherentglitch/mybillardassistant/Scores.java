@@ -6,7 +6,6 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.drawable.GradientDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -14,7 +13,6 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -24,14 +22,15 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 
+import java.util.ArrayList;
 import java.util.Calendar;
-
 
 public class Scores extends Activity {
 
-    private Button bMenu, bHelp, bRecherche, bFiltres;
-    private ImageButton bNouveau;
-    private EditText barreRecherche;
+    private Button bMenu, bHelp;
+    private ImageButton bNouveau, bDeleteBDD;
+
+    private PartieDataSource datasource;
 
     private View.OnClickListener clickListenerBoutons = new View.OnClickListener() {
         // private Intent deuxiemeActivite = null;
@@ -43,15 +42,6 @@ public class Scores extends Activity {
                 activityTwo = new Intent(Scores.this, Menu.class);
                 startActivity(activityTwo);
             }
-            /*
-            if(v.getId()==R.id.bouton_recherche)
-            {
-                Toast.makeText(Scores.this, "Recherche pas encore implémentée D:", Toast.LENGTH_LONG).show();
-            }
-            if(v.getId()==R.id.bouton_selectFilters)
-            {
-                Toast.makeText(Scores.this, "Filtres pas encore implémentés D:", Toast.LENGTH_LONG).show();
-            }*/
         }
     };
 
@@ -84,15 +74,9 @@ public class Scores extends Activity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_scores);
 
-        barreRecherche = (EditText) findViewById(R.id.barre_recherche);
-        //bFiltres = (Button) findViewById(R.id.bouton_selectFilters);
-        //bRecherche = (Button) findViewById(R.id.bouton_recherche);
         bMenu = (Button) findViewById(R.id.bouton_menu_scores);
         bHelp = (Button) findViewById(R.id.bouton_help_scores);
 
-        //barreRecherche.setOnClickListener(clickListenerBoutons);
-        //bFiltres.setOnClickListener(clickListenerBoutons);
-        //bRecherche.setOnClickListener(clickListenerBoutons);
         bMenu.setOnClickListener(clickListenerBoutons);
         bHelp.setOnClickListener(clickListenerBoutonHelp);
 
@@ -101,15 +85,33 @@ public class Scores extends Activity {
             @Override
             public void onClick(View v) {
                 callLoginDialog();
-                //createScoreTableRow();
             }
         });
+
+
+        datasource = new PartieDataSource(Scores.this);
+        ArrayList<Partie> result = datasource.load();
+
+        for (Partie partie : result){
+            createScoreTableRow(partie.getName(), partie.getType(), partie.getScores(), partie.getDate());
+        }
+
+        bDeleteBDD = (ImageButton) findViewById(R.id.bouton_deleteBDD);
+        bDeleteBDD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                datasource.deleteBDD();
+                finish();
+                startActivity(getIntent());
+            }
+        });
+
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
-    private void createScoreTableRow(String nomP, String typeP) { //ajouter les parametres voulus
+    private void createScoreTableRow(String nomP, String typeP, String scoreP, String dateP) { //ajouter les parametres voulus
         /* Find Tablelayout defined in main.xml */
         TableLayout tl = (TableLayout) findViewById(R.id.tableau_scores);
         TableRow tr = new TableRow(Scores.this);
@@ -120,8 +122,6 @@ public class Scores extends Activity {
 
         //tableRowParams.setMargins(5, 0, 5, 0); //left top right bottom
 
-
-
         View ligneVerticale1 = new View(this);
         ligneVerticale1.setLayoutParams(new TableRow.LayoutParams(2, TableRow.LayoutParams.MATCH_PARENT));
         ligneVerticale1.setBackgroundColor(Color.rgb(51, 51, 51));
@@ -131,26 +131,23 @@ public class Scores extends Activity {
         View ligneVerticale3 = new View(this);
         ligneVerticale3.setLayoutParams(new TableRow.LayoutParams(2, TableRow.LayoutParams.MATCH_PARENT));
         ligneVerticale3.setBackgroundColor(Color.rgb(51, 51, 51));
+        View ligneVerticale4 = new View(this);
+        ligneVerticale4.setLayoutParams(new TableRow.LayoutParams(2, TableRow.LayoutParams.MATCH_PARENT));
+        ligneVerticale4.setBackgroundColor(Color.rgb(51, 51, 51));
 
         TextView nom = new TextView(Scores.this);
         TextView type = new TextView(Scores.this);
         TextView date = new TextView(Scores.this);
-        ImageButton edit = new ImageButton(Scores.this);
-        ImageButton suppr = new ImageButton(Scores.this);
+        TextView score = new TextView(Scores.this);
+
         nom.setText(nomP);
         nom.setPadding(10, 20, 10, 0);
         type.setText(typeP);
         type.setPadding(10, 20, 10, 0);
-
-        Calendar c = Calendar.getInstance();
-        int jour = c.get(Calendar.DAY_OF_MONTH);
-        int mois = c.get(Calendar.MONTH)+1; //janvier = 0
-        int annee = c.get(Calendar.YEAR);
-        date.setText(jour + "/" + mois + "/" + annee);
+        score.setText(scoreP);
+        score.setPadding(10, 20, 10, 0);
+        date.setText(dateP);
         date.setPadding(10, 20, 10, 0);
-
-        edit.setBackgroundResource(R.drawable.mini_crayon);
-        suppr.setBackgroundResource(R.drawable.mini_croix_rouge);
 
         tr.addView(ligneVerticale1);
         tr.addView(nom);
@@ -158,8 +155,8 @@ public class Scores extends Activity {
         tr.addView(type);
         tr.addView(ligneVerticale3);
         tr.addView(date);
-        tr.addView(edit);
-        tr.addView(suppr);
+        tr.addView(ligneVerticale4);
+        tr.addView(score);
 
         View ligneHorizontale1 = new View(this);
         ligneHorizontale1.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, 2));
@@ -170,7 +167,6 @@ public class Scores extends Activity {
         ligneHorizontale2.setBackgroundColor(Color.rgb(51, 51, 51));
 
         tl.addView(ligneHorizontale1);
-      //  tl.addView(ligneHorizontale1, new TableLayout.LayoutParams(tr.getMeasuredWidth(), 2));
         tl.addView(tr, tableRowParams);
         tl.addView(ligneHorizontale2);
     }
@@ -182,6 +178,7 @@ public class Scores extends Activity {
         Button valider = (Button) myDialog.findViewById(R.id.partie_valider);
         final EditText partieNom = (EditText) myDialog.findViewById(R.id.partie_nom);
         final EditText partieType = (EditText) myDialog.findViewById(R.id.partie_type);
+        final EditText partieScore = (EditText) myDialog.findViewById(R.id.partie_score);
 
         myDialog.show();
 
@@ -197,10 +194,33 @@ public class Scores extends Activity {
                 partieType.setText("");
             }
         });
+        partieScore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                partieScore.setText("");
+            }
+        });
         valider.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                createScoreTableRow(partieNom.getText().toString(), partieType.getText().toString());
+                Calendar c = Calendar.getInstance();
+                int jour = c.get(Calendar.DAY_OF_MONTH);
+                int mois = c.get(Calendar.MONTH)+1; //janvier = 0
+                int annee = c.get(Calendar.YEAR);
+
+                String nom_partie = partieNom.getText().toString();
+                String type_partie = partieType.getText().toString();
+                String score_partie = partieScore.getText().toString();
+                String datePartie = jour + "/" + mois + "/" + annee;
+
+                datasource = new PartieDataSource(Scores.this);
+                datasource.insert(nom_partie, datePartie, type_partie, score_partie);
+
+                createScoreTableRow(nom_partie, type_partie, score_partie, datePartie);
+
+
+
+
                 myDialog.dismiss();
             }
         });
@@ -233,13 +253,4 @@ public class Scores extends Activity {
         AppIndex.AppIndexApi.start(client, getIndexApiAction());
     }
 
-    @Override
-    public void onStop() {
-        super.onStop();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        AppIndex.AppIndexApi.end(client, getIndexApiAction());
-        client.disconnect();
-    }
 }

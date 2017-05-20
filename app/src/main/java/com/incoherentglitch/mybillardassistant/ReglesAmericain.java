@@ -1,25 +1,14 @@
 package com.incoherentglitch.mybillardassistant;
 
-import android.graphics.Matrix;
 import android.net.Uri;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.FloatMath;
-import android.util.Log;
-import android.util.SparseArray;
-import android.util.TypedValue;
-import android.view.GestureDetector;
 import android.view.MotionEvent;
-import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
-import android.view.animation.ScaleAnimation;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.google.android.gms.appindexing.Action;
@@ -28,8 +17,6 @@ import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.util.Vector;
-
-import static java.lang.Math.sqrt;
 
 public class ReglesAmericain extends AppCompatActivity {
     /**

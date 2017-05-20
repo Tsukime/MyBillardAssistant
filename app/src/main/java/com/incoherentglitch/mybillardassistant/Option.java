@@ -101,8 +101,6 @@ public class Option extends Activity {
 	setPlayer_Level(2);
     }
 
-
-
     private View.OnClickListener clickListenerBoutons = new View.OnClickListener() {
         // private Intent deuxiemeActivite = null;
         @Override

@@ -105,11 +105,17 @@
                 android:id="@+id/bouton_nouveau"
                 android:src="@drawable/mini_croix"
                 android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:text="@string/bouton_nouveau"/>
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ajouter une partie"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:textSize="50px"/>
 
 
-            <EditText
+            <!--EditText
                 android:id="@+id/barre_recherche"
                 android:layout_width="150dp"
                 android:layout_height="35dp"
@@ -119,25 +125,24 @@
                 android:gravity="center"
                 android:background="#FFFFFF"
                 android:layout_centerVertical="true" />
+
+            <-ImageButton
+                android:id="@+id/bouton_recherche"
+                android:src="@drawable/mini_loupe"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="@string/bouton_recherche" /-->
             <View
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 />
             <ImageButton
-                android:id="@+id/bouton_recherche"
-                android:src="@drawable/mini_loupe"
+                android:id="@+id/bouton_deleteBDD"
+                android:src="@drawable/mini_croix_rouge"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:text="@string/bouton_recherche" />
-
-            <ImageButton
-                android:id="@+id/bouton_selectFilters"
-                android:src="@drawable/mini_triangle"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_gravity="right"
-                android:text="@string/bouton_selectFilters"/>
+                android:layout_gravity="right" />
         </LinearLayout>
 
         <ScrollView

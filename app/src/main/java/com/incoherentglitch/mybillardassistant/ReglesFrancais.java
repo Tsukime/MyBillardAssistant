@@ -66,7 +66,6 @@ public class ReglesFrancais extends AppCompatActivity {
                             text.setTextSize(mRatio + fontsize);
                         }
                     }
-
                 }
                 return false;
             }
@@ -95,10 +94,8 @@ public class ReglesFrancais extends AppCompatActivity {
                         findMagicLl.setAlpha(1f);
                     }
                 }
-
             }
         });
-
 
         Button findMagicBtn2 = (Button) findViewById(R.id.DebutPartie);
         findMagicBtn2.setOnClickListener(new View.OnClickListener() {
@@ -288,6 +285,7 @@ public class ReglesFrancais extends AppCompatActivity {
 
             }
         });
+
         Button findMagicBtn9 = (Button) findViewById(R.id.BilleContact4);
         findMagicBtn9.setOnClickListener(new View.OnClickListener() {
             boolean animationClosing = false;
@@ -341,7 +339,6 @@ public class ReglesFrancais extends AppCompatActivity {
 
             }
         });
-
 
         Button findMagicBtnB = (Button) findViewById(R.id.Queue);
         findMagicBtnB.setOnClickListener(new View.OnClickListener() {

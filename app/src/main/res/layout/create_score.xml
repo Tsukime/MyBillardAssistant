@@ -25,6 +25,16 @@
         android:layout_height="wrap_content"
         android:text="entrez type"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score de la Partie"/>
+    <EditText
+        android:id="@+id/partie_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="entrez score"/>
+
     <Button
         android:id="@+id/partie_valider"
         android:layout_width="wrap_content"
