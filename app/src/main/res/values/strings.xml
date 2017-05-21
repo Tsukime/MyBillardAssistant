@@ -589,7 +589,6 @@
     <string name="title_activity_accordion">Accordion</string>
 
 
-
     <string name="hint_se_tenir">Comment se tenir ?</string>
     <string name="hint_se_tenir_content">Pas trop rigide ! Il faut se tenir avec aisance ! Maintenant : où et comment se placer ? D\'abord, il faut se positionner face au coup à joueur tout en tenant la queue au niveau de la hanche avec la main droite. Le pied droit doit être perpendiculaire à la queue, tandis que la jambe gauche avance d\'un pas. Etablissez maintenant le chevalet sur le tapis selon la longueur de limage. pour une visée affinée, effectuez des petits pas sur le côté ou bougez le chevalet. A noter que la canne et la bille doivent être collées pour un coup bien précis. Au cas où le coup s\'avère compliqué, déplacez légèrement votre main jusqu\'au fut.</string>
     <string name="hint_doigt">Comment placer ses doigts ?</string>
@@ -598,6 +597,7 @@
     <string name="hint_retro_content">Le rétro désigne une technique qui a pour but de replacer la boule blanche après avoir touché une cible. Cela pour préparer le prochain coup ! Pour ce faire, il faut frapper de manière horizontale la boule au centre avec queue. Ensuite, allongez bien le coup sur la frappe pour que la boule revienne en arrière. La vitesse fournie permet de donner de l\'énergie au passage rétro. Il ne faut pas forcer car cela n\'est pas efficace : plus vous forcez, plus il est difficile d\'accomplir un rétro ! A noter qu\'il existe plusieurs directions de types : plein, 3/4 bille, 1/2 bille...</string>
     <string name="hint_centre">Comment faire une attaque au centre ?</string>
     <string name="hint_centre_centent">Très rencontrée au billard, l\'attaque au centre est une technique qui sert à travailler sur le rebond de la bille. Pour réaliser cette attaque, il faut que la bille glisse naturellement sur le tapis sans aucune rotation avant que l\'effet de frottement ne se déclenche pour lui communiquer une rotation en avant. La durée de cette phase de glissement varie en fonction de la puissance du coup réalisée. Avec une attaque au centre, il faut que les angles sur la trajectiore ainsi que la bande avant et après rebond soient sensiblement identiques. Pour ce faire, l\'idéal est de se concentrer sur la force de frappe et la quantité de billes afin de réaliser un coup gagnant.</string>
+    <string name="title_activity_cgu_view">CguView</string>
 
 
 </resources>

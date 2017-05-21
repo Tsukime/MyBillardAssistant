@@ -16,24 +16,38 @@
             </intent-filter>
         </activity>
         <activity android:name=".Regles" />
-        <activity android:name=".Scores"
+        <activity
+            android:name=".Scores"
             android:windowSoftInputMode="adjustNothing" />
         <activity android:name=".Advise" />
         <activity android:name=".Option" />
         <activity android:name=".UserArea" />
-        <activity android:name=".Login"
-            android:windowSoftInputMode="adjustNothing"/>
-        <activity android:name=".Register"
-            android:windowSoftInputMode="adjustNothing"/>
+        <activity
+            android:name=".Login"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".Register"
+            android:windowSoftInputMode="adjustNothing" />
         <activity android:name=".ReglesAnglais" />
         <activity android:name=".ConseilsInternet" />
         <activity android:name=".ReglesFrancais" />
         <activity android:name=".ReglesSnooker" />
-        <activity android:name=".ReglesAmericain"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <activity android:name=".ReglesAmericain" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".CguView"
+            android:label="@string/title_activity_cgu_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

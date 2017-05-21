@@ -144,6 +144,15 @@
                 android:text="Confirmé"
                 android:layout_below="@+id/magic_btn_level" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button_cgu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conditions générales d'utilisation"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/magic_btn_level"
+            android:layout_gravity="center"/>
     </LinearLayout>
 
 </RelativeLayout>
