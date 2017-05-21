@@ -4,6 +4,9 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+/**
+ * Création de la base de données pour les Scores
+ */
 public class PartieDAO extends SQLiteOpenHelper {
 	private static final int DATABASE_VERSION = 1;
 

@@ -8,6 +8,9 @@ import android.widget.Button;
 import android.view.View;
 import android.widget.ImageView;
 
+/**
+ * Menu principal de l'application
+ */
 public class Menu extends AppCompatActivity {
 
     private int level;
@@ -28,28 +31,23 @@ public class Menu extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             Intent activityTwo = null;
-            if(v.getId()==R.id.bouton_regles)
-            {
+            if(v.getId()==R.id.bouton_regles) {
                 activityTwo = new Intent(Menu.this, Regles.class);
                 startActivity(activityTwo);
             }
-            if(v.getId()==R.id.bouton_compte)
-            {
+            if(v.getId()==R.id.bouton_compte) {
                 activityTwo = new Intent(Menu.this, Login.class);
                 startActivity(activityTwo);
             }
-            if(v.getId()==R.id.bouton_options)
-            {
+            if(v.getId()==R.id.bouton_options) {
                 activityTwo = new Intent(Menu.this, Option.class);
                 startActivity(activityTwo);
             }
-            if(v.getId()==R.id.bouton_scores)
-            {
+            if(v.getId()==R.id.bouton_scores) {
                 activityTwo = new Intent(Menu.this, Scores.class);
                 startActivity(activityTwo);
             }
-            if(v.getId()==R.id.bouton_conseils)
-            {
+            if(v.getId()==R.id.bouton_conseils) {
                 activityTwo = new Intent(Menu.this, Advise.class);
                 startActivity(activityTwo);
             }

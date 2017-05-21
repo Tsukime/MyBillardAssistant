@@ -12,6 +12,9 @@ import android.widget.TextView;
 
 import java.util.Vector;
 
+/**
+ * Page des règles pour le snooker
+ */
 public class ReglesSnooker extends AppCompatActivity {
     Vector<TextView> array = new Vector<TextView>();
     final static float STEP = 200;
@@ -20,6 +23,10 @@ public class ReglesSnooker extends AppCompatActivity {
     float mBaseRatio;
     float fontsize = 18;
 
+    /**
+     * Récupère récursivement tous les éléments de type TextView dans un Vector
+     * @param viewGroup : la vue de départ
+     */
     private void findAllTextViews(ViewGroup viewGroup) {
         int count = viewGroup.getChildCount();
         for (int i = 0; i < count; i++) {
@@ -34,6 +41,12 @@ public class ReglesSnooker extends AppCompatActivity {
         }
 
     }
+
+    /**
+     * Fonction pour calcul de zoom
+     * @param event
+     * @return distance parcouru lors de l'event
+     */
     int getDistance(MotionEvent event) {
         int dx = (int) (event.getX(0) - event.getX(1));
         int dy = (int) (event.getY(0) - event.getY(1));
@@ -50,6 +63,7 @@ public class ReglesSnooker extends AppCompatActivity {
         ViewGroup layout = ( (ViewGroup) findViewById(R.id.layout_general));
         findAllTextViews(layout);
 
+        //zoom
         layout.setOnTouchListener(new View.OnTouchListener(){
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -73,6 +87,7 @@ public class ReglesSnooker extends AppCompatActivity {
             }
         });
 
+        //système accordéon
         Button findMagicBtn = (Button) findViewById(R.id.Description);
         findMagicBtn.setOnClickListener(new View.OnClickListener() {
             boolean animationClosing = false;

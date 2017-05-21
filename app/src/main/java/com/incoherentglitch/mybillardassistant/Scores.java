@@ -25,6 +25,9 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import java.util.ArrayList;
 import java.util.Calendar;
 
+/**
+ * Page des scores
+ */
 public class Scores extends Activity {
 
     private Button bMenu, bHelp;
@@ -88,7 +91,6 @@ public class Scores extends Activity {
             }
         });
 
-
         datasource = new PartieDataSource(Scores.this);
         ArrayList<Partie> result = datasource.load();
 
@@ -111,7 +113,14 @@ public class Scores extends Activity {
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
-    private void createScoreTableRow(String nomP, String typeP, String scoreP, String dateP) { //ajouter les parametres voulus
+    /**
+     * Créer une ligne dans le table des Scores de la vue
+     * @param nomP : nom de la Partie
+     * @param typeP : type de la Partie
+     * @param scoreP : score de la Partie
+     * @param dateP : date de la Partie au format jj/mm/aaaa
+     */
+    private void createScoreTableRow(String nomP, String typeP, String scoreP, String dateP) {
         /* Find Tablelayout defined in main.xml */
         TableLayout tl = (TableLayout) findViewById(R.id.tableau_scores);
         TableRow tr = new TableRow(Scores.this);
@@ -119,8 +128,6 @@ public class Scores extends Activity {
         TableLayout.LayoutParams tableRowParams =
                 new TableLayout.LayoutParams
                         (TableLayout.LayoutParams.WRAP_CONTENT, TableLayout.LayoutParams.WRAP_CONTENT);
-
-        //tableRowParams.setMargins(5, 0, 5, 0); //left top right bottom
 
         View ligneVerticale1 = new View(this);
         ligneVerticale1.setLayoutParams(new TableRow.LayoutParams(2, TableRow.LayoutParams.MATCH_PARENT));
@@ -141,7 +148,7 @@ public class Scores extends Activity {
         TextView score = new TextView(Scores.this);
 
         nom.setText(nomP);
-        nom.setPadding(10, 20, 10, 0);
+        nom.setPadding(10, 20, 10, 0); //left top right bottom
         type.setText(typeP);
         type.setPadding(10, 20, 10, 0);
         score.setText(scoreP);
@@ -171,6 +178,9 @@ public class Scores extends Activity {
         tl.addView(ligneHorizontale2);
     }
 
+    /**
+     * Ouvre la boite de dialogue contenant le formlulaire pour créer la partie
+     */
     private void callLoginDialog() {
         final Dialog myDialog = new Dialog(Scores.this);
         myDialog.setContentView(R.layout.create_score);
@@ -217,9 +227,6 @@ public class Scores extends Activity {
                 datasource.insert(nom_partie, datePartie, type_partie, score_partie);
 
                 createScoreTableRow(nom_partie, type_partie, score_partie, datePartie);
-
-
-
 
                 myDialog.dismiss();
             }

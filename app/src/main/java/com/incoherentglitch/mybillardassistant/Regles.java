@@ -8,6 +8,9 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+/**
+ * Page d'accueil des règles
+ */
 public class Regles extends Activity {
 
     private Button bMenu = null;

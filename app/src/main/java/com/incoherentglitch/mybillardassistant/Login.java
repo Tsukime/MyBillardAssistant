@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+/**
+ * Page de Log In
+ */
 public class Login extends AppCompatActivity {
 
     @Override

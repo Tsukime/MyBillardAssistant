@@ -8,6 +8,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.SQLException;
 
+/**
+ * Gestion de la base de données
+ */
 public class PartieDataSource {
 
 	private SQLiteDatabase database;
@@ -21,14 +24,28 @@ public class PartieDataSource {
 		dbDAO = new PartieDAO(context);
 	}
 
+	/**
+	 * Ouvre la base de données
+	 * @throws SQLException
+     */
 	public void open() throws SQLException {
 		database = dbDAO.getWritableDatabase();
 	}
 
+	/**
+	 * Ferme la base de données
+	 */
 	public void close() {
 		dbDAO.close();
 	}
 
+	/**
+	 * Insère une ligne dans la base de données
+	 * @param nom : nom de la partie
+	 * @param date : date de la partie
+	 * @param type : type de la partie
+     * @param score : score de la partie
+     */
 	public void insert(String nom, String date, String type, String score) {
 		open();
 		ContentValues values = new ContentValues();
@@ -40,6 +57,10 @@ public class PartieDataSource {
 		close();
 	}
 
+	/**
+	 * Charge les lignes de la base de données dans une ArrayList<Partie>
+	 * @return une ArrayList<Partie> contenant toutes les ligne de la base de données
+     */
 	public ArrayList<Partie> load(){
 		ArrayList<Partie> result = new ArrayList<>();
 		open();
@@ -61,6 +82,9 @@ public class PartieDataSource {
 		return result;
 	}
 
+	/**
+	 * Drop la base de données
+	 */
 	public void deleteBDD(){
 		open();
 		database.delete(PartieDAO.PARTIE_TABLE_NAME, "1", null);

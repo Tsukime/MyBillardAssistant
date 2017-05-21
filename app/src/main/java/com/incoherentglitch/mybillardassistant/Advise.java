@@ -7,10 +7,16 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
+/**
+ * Ouvre la page des conseils
+ */
 public class Advise extends AppCompatActivity {
     private Button bConseilInternet = null;
 
-
+    /**
+     * Création de la vue
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +28,9 @@ public class Advise extends AppCompatActivity {
 
     }
 
+    /**
+     * Création du Listener pour aller sur les conseils internet
+     */
     private View.OnClickListener clickListenerBoutons = new View.OnClickListener() {
         // private Intent deuxiemeActivite = null;
 

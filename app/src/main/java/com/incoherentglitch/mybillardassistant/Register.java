@@ -6,6 +6,9 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 
+/**
+ * Page d'enregistrement de compte
+ */
 public class Register extends AppCompatActivity {
 
     @Override

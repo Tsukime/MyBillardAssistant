@@ -18,6 +18,9 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.util.Vector;
 
+/**
+ * Page des règles pour le billard américain
+ */
 public class ReglesAmericain extends AppCompatActivity {
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -32,7 +35,10 @@ public class ReglesAmericain extends AppCompatActivity {
     float mBaseRatio;
     float fontsize = 18;
 
-
+    /**
+     * Récupère récursivement tous les éléments de type TextView dans un Vector
+     * @param viewGroup : la vue de départ
+     */
     private void findAllTextViews(ViewGroup viewGroup) {
         int count = viewGroup.getChildCount();
         for (int i = 0; i < count; i++) {
@@ -48,11 +54,17 @@ public class ReglesAmericain extends AppCompatActivity {
 
     }
 
+    /**
+     * Fonction pour calcul de zoom
+     * @param event
+     * @return distance parcouru lors de l'event
+     */
     int getDistance(MotionEvent event) {
         int dx = (int) (event.getX(0) - event.getX(1));
         int dy = (int) (event.getY(0) - event.getY(1));
         return (int) (Math.sqrt(dx * dx + dy * dy));
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,6 +74,7 @@ public class ReglesAmericain extends AppCompatActivity {
         ViewGroup layout = ( (ViewGroup) findViewById(R.id.layout_general));
         findAllTextViews(layout);
 
+        //zoom
         layout.setOnTouchListener(new View.OnTouchListener(){
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -85,6 +98,7 @@ public class ReglesAmericain extends AppCompatActivity {
             }
         });
 
+        //système accordéon
         Button findMagicBtn = (Button) findViewById(R.id.magic_btn_generales);
         findMagicBtn.setOnClickListener(new View.OnClickListener() {
             boolean animationClosing = false;

@@ -8,6 +8,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.webkit.WebView;
 
+/**
+ * Ouvre la page des CGU
+ */
 public class CguView extends AppCompatActivity {
 
     @Override
@@ -23,12 +26,6 @@ public class CguView extends AppCompatActivity {
         setContentView(vue);
 
         vue.loadUrl(url);
-
-
-
-
-
-
     }
 
 }

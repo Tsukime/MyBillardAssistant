@@ -12,6 +12,9 @@ import android.widget.TextView;
 
 import java.util.Vector;
 
+/**
+ * Ouvre la page des conseils internet
+ */
 public class ConseilsInternet extends AppCompatActivity {
 
     Vector<TextView> array = new Vector<TextView>();
@@ -21,6 +24,10 @@ public class ConseilsInternet extends AppCompatActivity {
     float mBaseRatio;
     float fontsize = 18;
 
+    /**
+     * Récupère récursivement tous les éléments de type TextView dans un Vector
+     * @param viewGroup : la vue de départ
+     */
     private void findAllTextViews(ViewGroup viewGroup) {
         int count = viewGroup.getChildCount();
         for (int i = 0; i < count; i++) {
@@ -35,6 +42,12 @@ public class ConseilsInternet extends AppCompatActivity {
         }
 
     }
+
+    /**
+     * Fonction pour calcul de zoom
+     * @param event
+     * @return distance parcouru lors de l'event
+     */
     int getDistance(MotionEvent event) {
         int dx = (int) (event.getX(0) - event.getX(1));
         int dy = (int) (event.getY(0) - event.getY(1));
@@ -47,11 +60,10 @@ public class ConseilsInternet extends AppCompatActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_conseils_internet);
 
-
-        //bouton_conseils_internet
         ViewGroup layout = ( (ViewGroup) findViewById(R.id.layout_general));
         findAllTextViews(layout);
 
+        //zoom
         layout.setOnTouchListener(new View.OnTouchListener(){
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -69,12 +81,12 @@ public class ConseilsInternet extends AppCompatActivity {
                             text.setTextSize(mRatio + fontsize);
                         }
                     }
-
                 }
                 return false;
             }
         });
 
+        //système accordéon
         Button findMagicBtn = (Button) findViewById(R.id.hintI);
         findMagicBtn.setOnClickListener(new View.OnClickListener() {
             boolean animationClosing = false;

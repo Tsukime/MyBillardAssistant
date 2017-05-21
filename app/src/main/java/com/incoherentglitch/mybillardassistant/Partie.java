@@ -1,5 +1,8 @@
 package com.incoherentglitch.mybillardassistant;
 
+/**
+ * Squelette d'une Partie pour Scores
+ */
 public class Partie {
     private long id;
     private String name;
